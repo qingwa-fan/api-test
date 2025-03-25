@@ -1,0 +1,14 @@
+[32mINFO    [0m py_page.base_page:base_page.py:31 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+[32mINFO    [0m test_case.test_login:test_login.py:16 ****************正在执行：test_use_right_account_login***************
+[32mINFO    [0m py_page.main_page:main_page.py:16 在首页点击【登录】跳转到登录页面
+[32mINFO    [0m py_page.base_page:base_page.py:132 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='登录']"]
+[32mINFO    [0m py_page.login_page:login_page.py:16 在登录页面用正确的账号密码进行登录
+[32mINFO    [0m py_page.base_page:base_page.py:132 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[contains(text(),'账号密码登录')]"]
+[32mINFO    [0m py_page.base_page:base_page.py:146 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入账号/手机号码']"], 接收的text是：15200000001
+[32mINFO    [0m py_page.base_page:base_page.py:146 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码']"], 接收的text是：111111.
+[32mINFO    [0m py_page.base_page:base_page.py:139 定位action是：finds_and_click, 定位的locatro是：['XPATH', "//*[text()='立即登录']"], 接收的index是：1
+[32mINFO    [0m py_page.login_page:login_page.py:18 登录完成后跳转到首页
+[32mINFO    [0m py_page.base_page:base_page.py:174 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-popover__reference']"]
+[32mINFO    [0m py_page.main_page:main_page.py:52 获取到的首页登录用户名是：思源
+[32mINFO    [0m test_case.test_login:test_login.py:19 获取到的结果是：思源, 期望的结果是：思源
+[32mINFO    [0m test_case.test_login:test_login.py:24 *******测试用例：test_use_right_account_login 断言失败为通过************

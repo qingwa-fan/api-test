@@ -1,0 +1,237 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "HUAWEI-MateBook-D",
+    "children" : [ {
+      "name" : "18800-MainThread",
+      "children" : [ {
+        "name" : "test_logout",
+        "uid" : "438e7c7f2f181377",
+        "parentUid" : "24b350edf681f92224be67971e33a7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676181731249,
+          "stop" : 1676181731249,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search_goods_by_name",
+        "uid" : "16e3174afeb6c17e",
+        "parentUid" : "24b350edf681f92224be67971e33a7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676181699544,
+          "stop" : 1676181703138,
+          "duration" : 3594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_rigister_user",
+        "uid" : "c1cf7eed7a52fc91",
+        "parentUid" : "24b350edf681f92224be67971e33a7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676181733117,
+          "stop" : 1676181736327,
+          "duration" : 3210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_goto_goods_detail_page",
+        "uid" : "7810e377d547ebc8",
+        "parentUid" : "24b350edf681f92224be67971e33a7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676181708541,
+          "stop" : 1676181713970,
+          "duration" : 5429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用账号密码进行登录",
+        "uid" : "60bf465cea7c120e",
+        "parentUid" : "24b350edf681f92224be67971e33a7b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1676181717865,
+          "stop" : 1676181728983,
+          "duration" : 11118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24b350edf681f92224be67971e33a7b2"
+    }, {
+      "name" : "6844-MainThread",
+      "children" : [ {
+        "name" : "测试用账号密码进行登录",
+        "uid" : "3e2016e1ac2bf7df",
+        "parentUid" : "a234abe9b690f2bb944685b09c4a75b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1676183255448,
+          "stop" : 1676183266324,
+          "duration" : 10876
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_goto_goods_detail_page",
+        "uid" : "acf64bb57089dd35",
+        "parentUid" : "a234abe9b690f2bb944685b09c4a75b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676183246131,
+          "stop" : 1676183251572,
+          "duration" : 5441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_rigister_user",
+        "uid" : "2802503d4dda2648",
+        "parentUid" : "a234abe9b690f2bb944685b09c4a75b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676183270410,
+          "stop" : 1676183273582,
+          "duration" : 3172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search_goods_by_name",
+        "uid" : "34a006c8f560ca00",
+        "parentUid" : "a234abe9b690f2bb944685b09c4a75b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676183238473,
+          "stop" : 1676183242171,
+          "duration" : 3698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_logout",
+        "uid" : "6fa225797bfcbc47",
+        "parentUid" : "a234abe9b690f2bb944685b09c4a75b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676183268593,
+          "stop" : 1676183268593,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a234abe9b690f2bb944685b09c4a75b3"
+    }, {
+      "name" : "15864-MainThread",
+      "children" : [ {
+        "name" : "test_rigister_user",
+        "uid" : "91e6d0ed9f185afd",
+        "parentUid" : "292fab4b07ded66250bc79bc6095f0e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676183617077,
+          "stop" : 1676183620353,
+          "duration" : 3276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用账号密码进行登录",
+        "uid" : "da37a5f19622225",
+        "parentUid" : "292fab4b07ded66250bc79bc6095f0e4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1676183602000,
+          "stop" : 1676183612938,
+          "duration" : 10938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_goto_goods_detail_page",
+        "uid" : "2ab87311d23c9a00",
+        "parentUid" : "292fab4b07ded66250bc79bc6095f0e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676183592748,
+          "stop" : 1676183598159,
+          "duration" : 5411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_logout",
+        "uid" : "655982a199d11f96",
+        "parentUid" : "292fab4b07ded66250bc79bc6095f0e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676183615244,
+          "stop" : 1676183615244,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search_goods_by_name",
+        "uid" : "9597f010829dff0e",
+        "parentUid" : "292fab4b07ded66250bc79bc6095f0e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676183585116,
+          "stop" : 1676183588821,
+          "duration" : 3705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "292fab4b07ded66250bc79bc6095f0e4"
+    } ],
+    "uid" : "970d0c580b972c790d6bd0d7c1292f6f"
+  }, {
+    "name" : "MacBook-Pro.local",
+    "children" : [ {
+      "name" : "24820-MainThread",
+      "children" : [ {
+        "name" : "测试用账号密码进行登录",
+        "uid" : "a7e0c99cda0bfacf",
+        "parentUid" : "9cbadc6d0d98472bd27994110f412b45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1675591041406,
+          "stop" : 1675591052218,
+          "duration" : 10812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9cbadc6d0d98472bd27994110f412b45"
+    } ],
+    "uid" : "e792a61be548a1d4ff631ca281f20c17"
+  } ]
+}

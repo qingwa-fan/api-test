@@ -1,0 +1,55 @@
+
+# 在首页进入到登录页面
+goto_login_page:
+  - action: find_and_click
+    locator: [ XPATH, "//*[text()='登录']"]
+    text: ~
+    index: ~
+
+# 在首页点击【注册】进入注册页面
+goto_register_page:
+  - action: find_and_click
+    locator: [ XPATH, "//*[text()='注册']" ]
+    text: ~
+    index: ~
+
+
+# 在首页获取登录用户名
+get_login_name:
+  - action: find
+    locator: [ XPATH, "//*[@class='el-popover__reference']"]
+    text: ~
+    index: ~
+
+# 在首页搜索商品
+search_goods_name:
+  - action: find_and_send
+    locator: [ CSS_SELECTOR, "[placeholder='请输入要搜索的商品名称']" ]
+    text: $goods_name
+    index: ~
+  - action: find_and_click
+    locator: [ CSS_SELECTOR, "[class='search-btn bg-primary white row-center']" ]
+    text: ~
+    index: ~
+  - action: finds
+    locator: [ CSS_SELECTOR, "[class='name line2']" ]
+    text: ~
+    index: ~
+    sleep: 3
+
+
+# 进入商品详情
+goto_goods_detail_page:
+  - action: finds_and_click
+    locator: [ XPATH, "//*[@class='name line2']" ]
+    text: ~
+    index: $num
+
+
+# 在知乎点击【首页】
+click_mainPage_icon:
+  - action: find_and_click
+    locator: [ XPATH, "//*[text()='首页']" ]
+    text: ~
+    index: ~
+

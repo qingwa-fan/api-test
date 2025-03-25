@@ -1,0 +1,19 @@
+
+# 在登录页面进行账号密码登录
+use_right_account_login:
+  - action: find_and_click
+    locator: ["XPATH", "//*[contains(text(),'账号密码登录')]"]
+    text: ~
+    index: ~
+  - action: find_and_send
+    locator: [ "XPATH", "//*[@placeholder='请输入账号/手机号码']"]
+    text: "15200000001"
+    index: ~
+  - action: find_and_send
+    locator: [ "XPATH", "//*[@placeholder='请输入密码']" ]
+    text: "111111."
+    index: ~
+  - action: finds_and_click
+    locator: [ "XPATH", "//*[text()='立即注册']" ]
+    text: ~
+    index: ~

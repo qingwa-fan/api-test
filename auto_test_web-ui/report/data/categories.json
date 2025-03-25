@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: list indices must be integers or slices, not NoneType",
+      "children" : [ {
+        "name" : "测试用账号密码进行登录",
+        "uid" : "da37a5f19622225",
+        "parentUid" : "be306026273d738c0e1584051689f7cb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1676183602000,
+          "stop" : 1676183612938,
+          "duration" : 10938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be306026273d738c0e1584051689f7cb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

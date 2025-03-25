@@ -1,0 +1,8 @@
+[
+  "test_case/test_goods.py::TestGoods::test_goto_goods_detail_page",
+  "test_case/test_goods.py::TestGoods::test_search_goods_by_name",
+  "test_case/test_login.py::TestLogin::test_logout",
+  "test_case/test_login.py::TestLogin::test_rigister_user",
+  "test_case/test_login.py::TestLogin::test_use_right_account_login",
+  "test_case/test_zhihu.py::TestZhiHu::test_click_MainPage_icon"
+]

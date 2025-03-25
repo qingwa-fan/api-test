@@ -1,0 +1,6 @@
+INFO     py_page.base_page:base_page.py:31 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+INFO     py_page.main_page:main_page.py:39 在首页搜索框输入文具进行商品搜索
+INFO     py_page.base_page:base_page.py:146 定位action是：find_and_send, 定位的locatro是：['CSS_SELECTOR', "[placeholder='请输入要搜索的商品名称']"], 接收的text是：文具
+INFO     py_page.base_page:base_page.py:132 定位action是：find_and_click, 定位的locatro是：['CSS_SELECTOR', "[class='search-btn bg-primary white row-center']"]
+INFO     py_page.base_page:base_page.py:182 定位action是：finds, 定位的locatro是：['CSS_SELECTOR', "[class='name line2']"]
+INFO     py_page.main_page:main_page.py:42 获取到的商品名称列表是['晨光中性笔笔芯黑0.5mm黑色碳素签字笔GP-1008按动式水笔学生考试用蓝黑医生处方笔教师专用红笔圆珠笔文具', '晨光文具速干中性笔直液式签字笔学生考试大容量全针管子弹头水笔直液式笔黑色0.5/0.38', '晨光文具经典六角木杆铅笔中小学生考试绘图铅笔 2B铅笔练字笔20支 AWP35715', '晨光文具可削铅笔 六角2B 红黑抽条 木杆铅笔 儿童铅笔 AWP30804', '小米文具可削铅笔 六角2B 红黑抽条 木杆铅笔 儿童铅笔 AWP30804', '晨光文具第1']

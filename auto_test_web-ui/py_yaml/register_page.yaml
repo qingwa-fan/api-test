@@ -1,0 +1,26 @@
+# 新用户注册
+user_register:
+  - action: find_and_send
+    locator: [ XPATH, "//*[@placeholder='请输入手机号码']"]
+    text: $mobile
+    index: ~
+  - action: find_and_send
+    locator: [ XPATH, "//*[@placeholder='请输入密码 (数字与字母自由组合)']" ]
+    text: $password
+    index: ~
+  - action: find_and_send
+    locator: [ XPATH, "//*[@placeholder='再次输入密码']"]
+    text: $password
+    index: ~
+  - action: find_and_click
+    locator: [ XPATH, "//*[text()='立即注册']" ]
+    text: ~
+    index: ~
+
+# 获取注册的tosta提示
+get_register_tosta_text:
+  - action: find
+    locator: [ XPATH, "//*[@class='el-message__content']"]
+    text: ~
+    index: ~
+    sleep: 2

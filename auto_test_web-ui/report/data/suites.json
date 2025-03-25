@@ -1,0 +1,90 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_goods",
+      "children" : [ {
+        "name" : "TestGoods",
+        "children" : [ {
+          "name" : "test_search_goods_by_name",
+          "uid" : "9597f010829dff0e",
+          "parentUid" : "9f8bd72b827d664e34946667ae552fd8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1676183585116,
+            "stop" : 1676183588821,
+            "duration" : 3705
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_goto_goods_detail_page",
+          "uid" : "2ab87311d23c9a00",
+          "parentUid" : "9f8bd72b827d664e34946667ae552fd8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1676183592748,
+            "stop" : 1676183598159,
+            "duration" : 5411
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9f8bd72b827d664e34946667ae552fd8"
+      } ],
+      "uid" : "963dca1c098ff9300e273fd704230c54"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "测试用账号密码进行登录",
+          "uid" : "da37a5f19622225",
+          "parentUid" : "0d8e8f730d883d96f0f07d44568a84e6",
+          "status" : "broken",
+          "time" : {
+            "start" : 1676183602000,
+            "stop" : 1676183612938,
+            "duration" : 10938
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_logout",
+          "uid" : "655982a199d11f96",
+          "parentUid" : "0d8e8f730d883d96f0f07d44568a84e6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1676183615244,
+            "stop" : 1676183615244,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_rigister_user",
+          "uid" : "91e6d0ed9f185afd",
+          "parentUid" : "0d8e8f730d883d96f0f07d44568a84e6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1676183617077,
+            "stop" : 1676183620353,
+            "duration" : 3276
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0d8e8f730d883d96f0f07d44568a84e6"
+      } ],
+      "uid" : "b0d25e7592ecf0ad5c1e978c2b721247"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ]
+}

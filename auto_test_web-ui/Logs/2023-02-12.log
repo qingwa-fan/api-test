@@ -1,0 +1,287 @@
+2023-02-12 11:49:25,398 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 11:49:25,490 - main_page.py:[24] - [INFO] - 在首页点击【注册】跳转到注册页面
+2023-02-12 11:49:26,085 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='注册']"]
+2023-02-12 11:49:26,445 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入手机号码']"], 接收的text是：19913393460
+2023-02-12 11:49:26,589 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码 (数字与字母自由组合)']"], 接收的text是：111111.0
+2023-02-12 11:49:26,704 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='再次输入密码']"], 接收的text是：111111.0
+2023-02-12 11:49:37,245 - base_page.py:[134] - [ERROR] - C:\Users\37210\Desktop\测开班_16\WebUiTestFrame/py_yaml/register_page.yaml:find_and_click:['XPATH', "//*[text()='登录']"]元素定位异常，错误信息：Message: 页面未找到元素超时
+Stacktrace:
+Backtrace:
+	(No symbol) [0x011A6643]
+	(No symbol) [0x0113BE21]
+	(No symbol) [0x0103DA9D]
+	(No symbol) [0x01071342]
+	(No symbol) [0x0107147B]
+	(No symbol) [0x010A8DC2]
+	(No symbol) [0x0108FDC4]
+	(No symbol) [0x010A6B09]
+	(No symbol) [0x0108FB76]
+	(No symbol) [0x010649C1]
+	(No symbol) [0x01065E5D]
+	GetHandleVerifier [0x0141A142+2497106]
+	GetHandleVerifier [0x014485D3+2686691]
+	GetHandleVerifier [0x0144BB9C+2700460]
+	GetHandleVerifier [0x01253B10+635936]
+	(No symbol) [0x01144A1F]
+	(No symbol) [0x0114A418]
+	(No symbol) [0x0114A505]
+	(No symbol) [0x0115508B]
+	BaseThreadInitThunk [0x772F00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77947BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77947B8E+238]
+
+2023-02-12 11:50:46,619 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 11:50:46,655 - main_page.py:[24] - [INFO] - 在首页点击【注册】跳转到注册页面
+2023-02-12 11:50:47,057 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='注册']"]
+2023-02-12 11:50:47,338 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入手机号码']"], 接收的text是：19916621358
+2023-02-12 11:50:47,449 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码 (数字与字母自由组合)']"], 接收的text是：111111.0
+2023-02-12 11:50:47,552 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='再次输入密码']"], 接收的text是：111111.0
+2023-02-12 11:50:47,610 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='立即注册']"]
+2023-02-12 11:50:49,645 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-message__content']"]
+2023-02-12 11:54:13,052 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 11:54:13,095 - main_page.py:[24] - [INFO] - 在首页点击【注册】跳转到注册页面
+2023-02-12 11:54:13,484 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='注册']"]
+2023-02-12 11:54:13,760 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入手机号码']"], 接收的text是：19949020996
+2023-02-12 11:54:13,880 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码 (数字与字母自由组合)']"], 接收的text是：111111.0
+2023-02-12 11:54:13,966 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='再次输入密码']"], 接收的text是：111111.0
+2023-02-12 11:54:14,020 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='立即注册']"]
+2023-02-12 11:54:16,059 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-message__content']"]
+2023-02-12 11:54:59,154 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 11:54:59,182 - main_page.py:[24] - [INFO] - 在首页点击【注册】跳转到注册页面
+2023-02-12 11:54:59,571 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='注册']"]
+2023-02-12 11:54:59,852 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入手机号码']"], 接收的text是：19967119449
+2023-02-12 11:54:59,963 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码 (数字与字母自由组合)']"], 接收的text是：111111.0
+2023-02-12 11:55:00,064 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='再次输入密码']"], 接收的text是：111111.0
+2023-02-12 11:55:00,116 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='立即注册']"]
+2023-02-12 11:55:02,174 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-message__content']"]
+2023-02-12 11:57:23,653 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 11:57:23,694 - main_page.py:[24] - [INFO] - 在首页点击【注册】跳转到注册页面
+2023-02-12 11:57:24,047 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='注册']"]
+2023-02-12 11:57:24,329 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入手机号码']"], 接收的text是：19951944802
+2023-02-12 11:57:24,437 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码 (数字与字母自由组合)']"], 接收的text是：111111.0
+2023-02-12 11:57:24,537 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='再次输入密码']"], 接收的text是：111111.0
+2023-02-12 11:57:24,595 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='立即注册']"]
+2023-02-12 11:57:26,637 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-message__content']"]
+2023-02-12 11:58:32,774 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 11:58:32,853 - main_page.py:[24] - [INFO] - 在首页点击【注册】跳转到注册页面
+2023-02-12 11:58:33,190 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='注册']"]
+2023-02-12 11:58:33,482 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入手机号码']"], 接收的text是：19944527155
+2023-02-12 11:58:33,590 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码 (数字与字母自由组合)']"], 接收的text是：111111.0
+2023-02-12 11:58:33,686 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='再次输入密码']"], 接收的text是：111111.0
+2023-02-12 11:58:33,740 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='立即注册']"]
+2023-02-12 11:58:35,771 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-message__content']"]
+2023-02-12 14:01:39,412 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:01:39,544 - main_page.py:[39] - [INFO] - 在首页搜索框输入文具进行商品搜索
+2023-02-12 14:01:39,915 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['CSS_SELECTOR', "[placeholder='请输入要搜索的商品名称']"], 接收的text是：文具
+2023-02-12 14:01:40,044 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['CSS_SELECTOR', "[class='search-btn bg-primary white row-center']"]
+2023-02-12 14:01:43,057 - base_page.py:[182] - [INFO] - 定位action是：finds, 定位的locatro是：['CSS_SELECTOR', "[class='name line2']"]
+2023-02-12 14:01:43,137 - main_page.py:[42] - [INFO] - 获取到的商品名称列表是['晨光中性笔笔芯黑0.5mm黑色碳素签字笔GP-1008按动式水笔学生考试用蓝黑医生处方笔教师专用红笔圆珠笔文具', '晨光文具速干中性笔直液式签字笔学生考试大容量全针管子弹头水笔直液式笔黑色0.5/0.38', '晨光文具经典六角木杆铅笔中小学生考试绘图铅笔 2B铅笔练字笔20支 AWP35715', '晨光文具可削铅笔 六角2B 红黑抽条 木杆铅笔 儿童铅笔 AWP30804', '小米文具可削铅笔 六角2B 红黑抽条 木杆铅笔 儿童铅笔 AWP30804', '晨光文具第1']
+2023-02-12 14:01:48,539 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:01:48,540 - main_page.py:[31] - [INFO] - 在首页点击index=2的商品，进入商品详情
+2023-02-12 14:01:48,958 - base_page.py:[139] - [INFO] - 定位action是：finds_and_click, 定位的locatro是：['XPATH', "//*[@class='name line2']"], 接收的index是：2
+2023-02-12 14:01:57,864 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:01:57,864 - test_login.py:[19] - [INFO] - ****************正在执行：test_use_right_account_login***************
+2023-02-12 14:01:57,865 - main_page.py:[16] - [INFO] - 在首页点击【登录】跳转到登录页面
+2023-02-12 14:01:58,331 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='登录']"]
+2023-02-12 14:01:58,348 - login_page.py:[16] - [INFO] - 在登录页面用正确的账号密码进行登录
+2023-02-12 14:01:58,600 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[contains(text(),'账号密码登录')]"]
+2023-02-12 14:01:58,778 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入账号/手机号码']"], 接收的text是：15200000001
+2023-02-12 14:01:58,931 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码']"], 接收的text是：111111.
+2023-02-12 14:02:08,981 - base_page.py:[141] - [ERROR] - C:\Users\37210\Desktop\测开班_16\WebUiTestFrame/py_yaml/login_page.yaml:finds_and_click:['XPATH', "//*[text()='立即注册']"]元素定位异常，错误信息：list indices must be integers or slices, not NoneType
+2023-02-12 14:02:13,116 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:02:13,188 - main_page.py:[24] - [INFO] - 在首页点击【注册】跳转到注册页面
+2023-02-12 14:02:13,550 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='注册']"]
+2023-02-12 14:02:13,871 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入手机号码']"], 接收的text是：19978907826
+2023-02-12 14:02:14,013 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码 (数字与字母自由组合)']"], 接收的text是：111111.0
+2023-02-12 14:02:14,145 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='再次输入密码']"], 接收的text是：111111.0
+2023-02-12 14:02:14,217 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='立即注册']"]
+2023-02-12 14:02:16,251 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-message__content']"]
+2023-02-12 14:02:27,742 - zip_file.py:[19] - [INFO] - 文件：./report 压缩成功
+2023-02-12 14:02:30,439 - runCase.py:[37] - [INFO] - 邮件发送成功，邮件标题：webUI自动化测试报告
+2023-02-12 14:27:18,470 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:27:18,472 - main_page.py:[39] - [INFO] - 在首页搜索框输入文具进行商品搜索
+2023-02-12 14:27:18,903 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['CSS_SELECTOR', "[placeholder='请输入要搜索的商品名称']"], 接收的text是：文具
+2023-02-12 14:27:19,064 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['CSS_SELECTOR', "[class='search-btn bg-primary white row-center']"]
+2023-02-12 14:27:22,083 - base_page.py:[182] - [INFO] - 定位action是：finds, 定位的locatro是：['CSS_SELECTOR', "[class='name line2']"]
+2023-02-12 14:27:22,170 - main_page.py:[42] - [INFO] - 获取到的商品名称列表是['晨光中性笔笔芯黑0.5mm黑色碳素签字笔GP-1008按动式水笔学生考试用蓝黑医生处方笔教师专用红笔圆珠笔文具', '晨光文具速干中性笔直液式签字笔学生考试大容量全针管子弹头水笔直液式笔黑色0.5/0.38', '晨光文具经典六角木杆铅笔中小学生考试绘图铅笔 2B铅笔练字笔20支 AWP35715', '晨光文具可削铅笔 六角2B 红黑抽条 木杆铅笔 儿童铅笔 AWP30804', '小米文具可削铅笔 六角2B 红黑抽条 木杆铅笔 儿童铅笔 AWP30804', '晨光文具第1']
+2023-02-12 14:27:26,131 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:27:26,131 - main_page.py:[31] - [INFO] - 在首页点击index=2的商品，进入商品详情
+2023-02-12 14:27:26,566 - base_page.py:[139] - [INFO] - 定位action是：finds_and_click, 定位的locatro是：['XPATH', "//*[@class='name line2']"], 接收的index是：2
+2023-02-12 14:27:35,446 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:27:35,447 - test_login.py:[19] - [INFO] - ****************正在执行：test_use_right_account_login***************
+2023-02-12 14:27:35,447 - main_page.py:[16] - [INFO] - 在首页点击【登录】跳转到登录页面
+2023-02-12 14:27:35,862 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='登录']"]
+2023-02-12 14:27:35,865 - login_page.py:[16] - [INFO] - 在登录页面用正确的账号密码进行登录
+2023-02-12 14:27:36,055 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[contains(text(),'账号密码登录')]"]
+2023-02-12 14:27:36,187 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入账号/手机号码']"], 接收的text是：15200000001
+2023-02-12 14:27:36,301 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码']"], 接收的text是：111111.
+2023-02-12 14:27:46,323 - base_page.py:[141] - [ERROR] - C:\Users\37210\Desktop\测开班_16\WebUiTestFrame/py_yaml/login_page.yaml:finds_and_click:['XPATH', "//*[text()='立即注册']"]元素定位异常，错误信息：list indices must be integers or slices, not NoneType
+2023-02-12 14:27:50,408 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:27:50,497 - main_page.py:[24] - [INFO] - 在首页点击【注册】跳转到注册页面
+2023-02-12 14:27:50,810 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='注册']"]
+2023-02-12 14:27:51,140 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入手机号码']"], 接收的text是：19912906963
+2023-02-12 14:27:51,275 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码 (数字与字母自由组合)']"], 接收的text是：111111.0
+2023-02-12 14:27:51,391 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='再次输入密码']"], 接收的text是：111111.0
+2023-02-12 14:27:51,468 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='立即注册']"]
+2023-02-12 14:27:53,510 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-message__content']"]
+2023-02-12 14:27:55,738 - conftest.py:[47] - [INFO] - 本次测试结果：
+total: 5
+passed: 4
+failed: 1
+error: 0
+skipped: 0
+total_time: 39.31570649147034 seconds
+2023-02-12 14:28:01,841 - zip_file.py:[19] - [INFO] - 文件：./report 压缩成功
+2023-02-12 14:28:04,019 - runCase.py:[38] - [INFO] - 邮件发送成功，邮件标题：webUI自动化测试报告
+2023-02-12 14:33:05,113 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:33:05,116 - main_page.py:[39] - [INFO] - 在首页搜索框输入文具进行商品搜索
+2023-02-12 14:33:05,550 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['CSS_SELECTOR', "[placeholder='请输入要搜索的商品名称']"], 接收的text是：文具
+2023-02-12 14:33:05,716 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['CSS_SELECTOR', "[class='search-btn bg-primary white row-center']"]
+2023-02-12 14:33:08,730 - base_page.py:[182] - [INFO] - 定位action是：finds, 定位的locatro是：['CSS_SELECTOR', "[class='name line2']"]
+2023-02-12 14:33:08,819 - main_page.py:[42] - [INFO] - 获取到的商品名称列表是['晨光中性笔笔芯黑0.5mm黑色碳素签字笔GP-1008按动式水笔学生考试用蓝黑医生处方笔教师专用红笔圆珠笔文具', '晨光文具速干中性笔直液式签字笔学生考试大容量全针管子弹头水笔直液式笔黑色0.5/0.38', '晨光文具经典六角木杆铅笔中小学生考试绘图铅笔 2B铅笔练字笔20支 AWP35715', '晨光文具可削铅笔 六角2B 红黑抽条 木杆铅笔 儿童铅笔 AWP30804', '小米文具可削铅笔 六角2B 红黑抽条 木杆铅笔 儿童铅笔 AWP30804', '晨光文具第1']
+2023-02-12 14:33:12,746 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:33:12,747 - main_page.py:[31] - [INFO] - 在首页点击index=2的商品，进入商品详情
+2023-02-12 14:33:13,144 - base_page.py:[139] - [INFO] - 定位action是：finds_and_click, 定位的locatro是：['XPATH', "//*[@class='name line2']"], 接收的index是：2
+2023-02-12 14:33:21,999 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:33:22,000 - test_login.py:[19] - [INFO] - ****************正在执行：test_use_right_account_login***************
+2023-02-12 14:33:22,001 - main_page.py:[16] - [INFO] - 在首页点击【登录】跳转到登录页面
+2023-02-12 14:33:22,466 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='登录']"]
+2023-02-12 14:33:22,469 - login_page.py:[16] - [INFO] - 在登录页面用正确的账号密码进行登录
+2023-02-12 14:33:22,662 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[contains(text(),'账号密码登录')]"]
+2023-02-12 14:33:22,802 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入账号/手机号码']"], 接收的text是：15200000001
+2023-02-12 14:33:22,916 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码']"], 接收的text是：111111.
+2023-02-12 14:33:32,935 - base_page.py:[141] - [ERROR] - C:\Users\37210\Desktop\测开班_16\WebUiTestFrame/py_yaml/login_page.yaml:finds_and_click:['XPATH', "//*[text()='立即注册']"]元素定位异常，错误信息：list indices must be integers or slices, not NoneType
+2023-02-12 14:33:37,074 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-12 14:33:37,138 - main_page.py:[24] - [INFO] - 在首页点击【注册】跳转到注册页面
+2023-02-12 14:33:37,598 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='注册']"]
+2023-02-12 14:33:37,903 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入手机号码']"], 接收的text是：19933499805
+2023-02-12 14:33:38,047 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码 (数字与字母自由组合)']"], 接收的text是：111111.0
+2023-02-12 14:33:38,161 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='再次输入密码']"], 接收的text是：111111.0
+2023-02-12 14:33:38,235 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='立即注册']"]
+2023-02-12 14:33:40,278 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-message__content']"]
+2023-02-12 14:33:42,526 - conftest.py:[47] - [INFO] - 本次测试结果：
+total: 5
+passed: 4
+failed: 1
+error: 0
+skipped: 0
+total_time: 39.592567443847656 seconds
+2023-02-12 14:33:48,777 - zip_file.py:[19] - [INFO] - 文件：./report 压缩成功
+2023-02-12 14:33:51,155 - runCase.py:[38] - [INFO] - 邮件发送成功，邮件标题：webUI自动化测试报告
+2023-02-12 15:29:22,105 - base_page.py:[33] - [INFO] - 测试的url是：https://www.zhihu.com/question/530732789/answer/2493415198
+2023-02-12 15:29:24,951 - conftest.py:[48] - [INFO] - 本次测试结果：
+total: 6
+passed: 0
+failed: 1
+error: 0
+skipped: 0
+total_time: 8.84316611289978 seconds
+2023-02-12 15:30:07,875 - base_page.py:[33] - [INFO] - 测试的url是：https://www.zhihu.com/question/530732789/answer/2493415198
+2023-02-12 15:30:07,942 - base_page.py:[145] - [ERROR] - C:\Users\37210\Desktop\测开班_16\WebUiTestFrame/py_yaml/main_page.yaml:finds_and_click:['XPATH', "//*[text()='首页']"]元素定位异常，错误信息：list indices must be integers or slices, not NoneType
+2023-02-12 15:30:10,349 - conftest.py:[48] - [INFO] - 本次测试结果：
+total: 6
+passed: 0
+failed: 1
+error: 0
+skipped: 0
+total_time: 8.209290504455566 seconds
+2023-02-12 15:31:58,617 - base_page.py:[33] - [INFO] - 测试的url是：https://www.zhihu.com/question/530732789/answer/2493415198
+2023-02-12 15:31:59,844 - base_page.py:[138] - [ERROR] - C:\Users\37210\Desktop\测开班_16\WebUiTestFrame/py_yaml/main_page.yaml:find_and_click:['XPATH', "//*[text()='首页']"]元素定位异常，错误信息：Message: element click intercepted: Element <a class="Tabs-link AppHeader-TabsLink css-12n8klz" tabindex="0" data-za-not-track-link="true" href="//www.zhihu.com/">...</a> is not clickable at point (281, 26). Other element would receive the click: <div class="Modal-backdrop"></div>
+  (Session info: chrome=110.0.5481.78)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x011A6643]
+	(No symbol) [0x0113BE21]
+	(No symbol) [0x0103DA9D]
+	(No symbol) [0x010792B2]
+	(No symbol) [0x01076970]
+	(No symbol) [0x01073E0B]
+	(No symbol) [0x01072548]
+	(No symbol) [0x01066B13]
+	(No symbol) [0x0108FD7C]
+	(No symbol) [0x0106641F]
+	(No symbol) [0x010900D4]
+	(No symbol) [0x010A6B09]
+	(No symbol) [0x0108FB76]
+	(No symbol) [0x010649C1]
+	(No symbol) [0x01065E5D]
+	GetHandleVerifier [0x0141A142+2497106]
+	GetHandleVerifier [0x014485D3+2686691]
+	GetHandleVerifier [0x0144BB9C+2700460]
+	GetHandleVerifier [0x01253B10+635936]
+	(No symbol) [0x01144A1F]
+	(No symbol) [0x0114A418]
+	(No symbol) [0x0114A505]
+	(No symbol) [0x0115508B]
+	BaseThreadInitThunk [0x772F00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77947BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77947B8E+238]
+
+2023-02-12 15:32:02,542 - conftest.py:[48] - [INFO] - 本次测试结果：
+total: 6
+passed: 0
+failed: 1
+error: 0
+skipped: 0
+total_time: 9.677408933639526 seconds
+2023-02-12 15:33:04,148 - base_page.py:[33] - [INFO] - 测试的url是：https://www.zhihu.com/question/530732789/answer/2493415198
+2023-02-12 15:33:05,379 - base_page.py:[138] - [ERROR] - C:\Users\37210\Desktop\测开班_16\WebUiTestFrame/py_yaml/main_page.yaml:find_and_click:['XPATH', "//*[text()='首页']"]元素定位异常，错误信息：Message: element click intercepted: Element <a class="Tabs-link AppHeader-TabsLink css-12n8klz" tabindex="0" data-za-not-track-link="true" href="//www.zhihu.com/">...</a> is not clickable at point (281, 26). Other element would receive the click: <div class="Modal-backdrop"></div>
+  (Session info: chrome=110.0.5481.78)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x011A6643]
+	(No symbol) [0x0113BE21]
+	(No symbol) [0x0103DA9D]
+	(No symbol) [0x010792B2]
+	(No symbol) [0x01076970]
+	(No symbol) [0x01073E0B]
+	(No symbol) [0x01072548]
+	(No symbol) [0x01066B13]
+	(No symbol) [0x0108FD7C]
+	(No symbol) [0x0106641F]
+	(No symbol) [0x010900D4]
+	(No symbol) [0x010A6B09]
+	(No symbol) [0x0108FB76]
+	(No symbol) [0x010649C1]
+	(No symbol) [0x01065E5D]
+	GetHandleVerifier [0x0141A142+2497106]
+	GetHandleVerifier [0x014485D3+2686691]
+	GetHandleVerifier [0x0144BB9C+2700460]
+	GetHandleVerifier [0x01253B10+635936]
+	(No symbol) [0x01144A1F]
+	(No symbol) [0x0114A418]
+	(No symbol) [0x0114A505]
+	(No symbol) [0x0115508B]
+	BaseThreadInitThunk [0x772F00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77947BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77947B8E+238]
+
+2023-02-12 15:33:08,112 - conftest.py:[48] - [INFO] - 本次测试结果：
+total: 6
+passed: 0
+failed: 1
+error: 0
+skipped: 0
+total_time: 9.761702299118042 seconds
+2023-02-12 15:37:48,734 - base_page.py:[33] - [INFO] - 测试的url是：https://www.zhihu.com/question/530732789/answer/2493415198
+2023-02-12 15:37:49,866 - handle_black.py:[23] - [INFO] - 在黑名单中查找元素('xpath', "//*[@class='Zi Zi--Close Modal-closeIcon']")
+2023-02-12 15:37:49,940 - handle_black.py:[28] - [INFO] - 查找到黑名单元素('xpath', "//*[@class='Zi Zi--Close Modal-closeIcon']")，并对该元素进行处理
+2023-02-12 15:37:53,527 - base_page.py:[137] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='首页']"]
+2023-02-12 15:37:56,281 - conftest.py:[48] - [INFO] - 本次测试结果：
+total: 6
+passed: 1
+failed: 0
+error: 0
+skipped: 0
+total_time: 15.809305667877197 seconds
+2023-02-12 15:54:22,464 - base_page.py:[33] - [INFO] - 测试的url是：https://www.zhihu.com/question/530732789/answer/2493415198
+2023-02-12 15:54:23,587 - handle_black.py:[23] - [INFO] - 在黑名单中查找元素('xpath', "//*[@class='Zi Zi--Close Modal-closeIcon']")
+2023-02-12 15:54:23,644 - handle_black.py:[28] - [INFO] - 查找到黑名单元素('xpath', "//*[@class='Zi Zi--Close Modal-closeIcon']")，并对该元素进行处理
+2023-02-12 15:54:27,005 - base_page.py:[140] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='首页']"]
+2023-02-12 15:54:30,839 - conftest.py:[48] - [INFO] - 本次测试结果：
+total: 6
+passed: 1
+failed: 0
+error: 0
+skipped: 0
+total_time: 14.152770280838013 seconds

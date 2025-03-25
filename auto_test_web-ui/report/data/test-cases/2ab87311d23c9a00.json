@@ -1,0 +1,118 @@
+{
+  "uid" : "2ab87311d23c9a00",
+  "name" : "test_goto_goods_detail_page",
+  "fullName" : "test_case.test_goods.TestGoods#test_goto_goods_detail_page",
+  "historyId" : "26d480357f14c56b82cfa73376958c84",
+  "time" : {
+    "start" : 1676183592748,
+    "stop" : 1676183598159,
+    "duration" : 5411
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_driver",
+    "time" : {
+      "start" : 1676183591044,
+      "stop" : 1676183592748,
+      "duration" : 1704
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fe141331225c6589",
+      "name" : "log",
+      "source" : "fe141331225c6589.txt",
+      "type" : "text/plain",
+      "size" : 362
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base_driver::0",
+    "time" : {
+      "start" : 1676183598159,
+      "stop" : 1676183600343,
+      "duration" : 2184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_goods"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGoods"
+  }, {
+    "name" : "host",
+    "value" : "HUAWEI-MateBook-D"
+  }, {
+    "name" : "thread",
+    "value" : "15864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_goods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "acf64bb57089dd35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676183246131,
+        "stop" : 1676183251572,
+        "duration" : 5441
+      }
+    }, {
+      "uid" : "7810e377d547ebc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676181708541,
+        "stop" : 1676181713970,
+        "duration" : 5429
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ab87311d23c9a00.json",
+  "parameterValues" : [ ]
+}

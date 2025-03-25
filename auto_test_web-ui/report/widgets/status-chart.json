@@ -1,0 +1,51 @@
+[ {
+  "uid" : "da37a5f19622225",
+  "name" : "测试用账号密码进行登录",
+  "time" : {
+    "start" : 1676183602000,
+    "stop" : 1676183612938,
+    "duration" : 10938
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "91e6d0ed9f185afd",
+  "name" : "test_rigister_user",
+  "time" : {
+    "start" : 1676183617077,
+    "stop" : 1676183620353,
+    "duration" : 3276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "655982a199d11f96",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1676183615244,
+    "stop" : 1676183615244,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9597f010829dff0e",
+  "name" : "test_search_goods_by_name",
+  "time" : {
+    "start" : 1676183585116,
+    "stop" : 1676183588821,
+    "duration" : 3705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ab87311d23c9a00",
+  "name" : "test_goto_goods_detail_page",
+  "time" : {
+    "start" : 1676183592748,
+    "stop" : 1676183598159,
+    "duration" : 5411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

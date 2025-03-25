@@ -1,0 +1,100 @@
+{
+  "uid" : "34a006c8f560ca00",
+  "name" : "test_search_goods_by_name",
+  "fullName" : "test_case.test_goods.TestGoods#test_search_goods_by_name",
+  "historyId" : "a642e80979f9e738c9516ca30b180d22",
+  "time" : {
+    "start" : 1676183238473,
+    "stop" : 1676183242171,
+    "duration" : 3698
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_driver",
+    "time" : {
+      "start" : 1676183236591,
+      "stop" : 1676183238471,
+      "duration" : 1880
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a15a51f5901cb89b",
+      "name" : "log",
+      "source" : "a15a51f5901cb89b.txt",
+      "type" : "text/plain",
+      "size" : 1327
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base_driver::0",
+    "time" : {
+      "start" : 1676183242172,
+      "stop" : 1676183244405,
+      "duration" : 2233
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_goods"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGoods"
+  }, {
+    "name" : "host",
+    "value" : "HUAWEI-MateBook-D"
+  }, {
+    "name" : "thread",
+    "value" : "6844-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_goods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34a006c8f560ca00.json",
+  "parameterValues" : [ ]
+}

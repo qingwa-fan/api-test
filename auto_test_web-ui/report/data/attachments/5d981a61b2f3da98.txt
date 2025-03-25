@@ -1,0 +1,8 @@
+INFO     py_page.base_page:base_page.py:31 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+INFO     py_page.main_page:main_page.py:24 在首页点击【注册】跳转到注册页面
+INFO     py_page.base_page:base_page.py:132 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='注册']"]
+INFO     py_page.base_page:base_page.py:146 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入手机号码']"], 接收的text是：19912906963
+INFO     py_page.base_page:base_page.py:146 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码 (数字与字母自由组合)']"], 接收的text是：111111.0
+INFO     py_page.base_page:base_page.py:146 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='再次输入密码']"], 接收的text是：111111.0
+INFO     py_page.base_page:base_page.py:132 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='立即注册']"]
+INFO     py_page.base_page:base_page.py:174 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-message__content']"]

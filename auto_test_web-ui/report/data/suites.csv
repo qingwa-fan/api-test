@@ -1,0 +1,10 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Feb 12 14:33:22 CST 2023","Sun Feb 12 14:33:32 CST 2023","10938","test_case","test_login","TestLogin","","","测试用账号密码进行登录","在JcMall商城用正确的账号密码进行登录，验证登录过程"
+"passed","Sun Feb 12 14:33:37 CST 2023","Sun Feb 12 14:33:40 CST 2023","3276","test_case","test_login","TestLogin","","","test_rigister_user","
+        判断用户是否注册成功：
+        1.UI页面注册后是否有特定的元素出现提示用户注册成；
+        2.注册完成后数据库查验是否增加新数据；(从数据库用户表中根据tel获取用户信息)
+        "
+"passed","Sun Feb 12 14:33:35 CST 2023","Sun Feb 12 14:33:35 CST 2023","0","test_case","test_login","TestLogin","","","test_logout",""
+"passed","Sun Feb 12 14:33:05 CST 2023","Sun Feb 12 14:33:08 CST 2023","3705","test_case","test_goods","TestGoods","","","test_search_goods_by_name",""
+"passed","Sun Feb 12 14:33:12 CST 2023","Sun Feb 12 14:33:18 CST 2023","5411","test_case","test_goods","TestGoods","","","test_goto_goods_detail_page",""

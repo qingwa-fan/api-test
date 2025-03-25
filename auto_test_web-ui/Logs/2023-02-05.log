@@ -1,0 +1,76 @@
+2023-02-05 17:23:04,818 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-05 17:23:04,819 - main_page.py:[16] - [INFO] - 在首页点击【登录】跳转到登录页面
+2023-02-05 17:23:06,234 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='登录']"]
+2023-02-05 17:23:06,965 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[contains(text(),'账号密码登录')]"]
+2023-02-05 17:23:09,452 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入账号/手机号码']"], 接收的text是：15200000001
+2023-02-05 17:23:10,178 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码']"], 接收的text是：111111.
+2023-02-05 17:23:10,437 - base_page.py:[139] - [INFO] - 定位action是：finds_and_click, 定位的locatro是：['XPATH', "//*[text()='立即登录']"], 接收的index是：1
+2023-02-05 17:23:12,033 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-popover__reference']"]
+2023-02-05 17:23:12,055 - main_page.py:[52] - [INFO] - 获取到的首页登录用户名是：思源
+2023-02-05 17:26:49,579 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-05 17:26:49,580 - main_page.py:[16] - [INFO] - 在首页点击【登录】跳转到登录页面
+2023-02-05 17:26:51,193 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='登录']"]
+2023-02-05 17:26:51,195 - login_page.py:[16] - [INFO] - 在登录页面用正确的账号密码进行登录
+2023-02-05 17:26:51,992 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[contains(text(),'账号密码登录')]"]
+2023-02-05 17:26:54,381 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入账号/手机号码']"], 接收的text是：15200000001
+2023-02-05 17:26:55,219 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码']"], 接收的text是：111111.
+2023-02-05 17:26:55,471 - base_page.py:[139] - [INFO] - 定位action是：finds_and_click, 定位的locatro是：['XPATH', "//*[text()='立即登录']"], 接收的index是：1
+2023-02-05 17:26:55,471 - login_page.py:[18] - [INFO] - 登录完成后跳转到首页
+2023-02-05 17:26:57,480 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-popover__reference']"]
+2023-02-05 17:26:57,505 - main_page.py:[52] - [INFO] - 获取到的首页登录用户名是：思源
+2023-02-05 17:26:57,506 - test_login.py:[11] - [INFO] - 获取到的结果是：思源, 期望的结果是：思源
+2023-02-05 17:28:14,000 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-05 17:28:14,001 - test_login.py:[10] - [INFO] - ****************正在执行：test_use_right_account_login***************
+2023-02-05 17:28:14,001 - main_page.py:[16] - [INFO] - 在首页点击【登录】跳转到登录页面
+2023-02-05 17:28:15,598 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='登录']"]
+2023-02-05 17:28:15,600 - login_page.py:[16] - [INFO] - 在登录页面用正确的账号密码进行登录
+2023-02-05 17:28:16,352 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[contains(text(),'账号密码登录')]"]
+2023-02-05 17:28:18,958 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入账号/手机号码']"], 接收的text是：15200000001
+2023-02-05 17:28:19,676 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码']"], 接收的text是：111111.
+2023-02-05 17:28:19,964 - base_page.py:[139] - [INFO] - 定位action是：finds_and_click, 定位的locatro是：['XPATH', "//*[text()='立即登录']"], 接收的index是：1
+2023-02-05 17:28:19,964 - login_page.py:[18] - [INFO] - 登录完成后跳转到首页
+2023-02-05 17:28:21,762 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-popover__reference']"]
+2023-02-05 17:28:21,865 - main_page.py:[52] - [INFO] - 获取到的首页登录用户名是：思源
+2023-02-05 17:28:21,865 - test_login.py:[12] - [INFO] - 获取到的结果是：思源, 期望的结果是：思源
+2023-02-05 17:38:42,394 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-05 17:38:42,395 - test_login.py:[11] - [INFO] - ****************正在执行：test_use_right_account_login***************
+2023-02-05 17:38:42,396 - main_page.py:[16] - [INFO] - 在首页点击【登录】跳转到登录页面
+2023-02-05 17:38:43,396 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='登录']"]
+2023-02-05 17:38:43,397 - login_page.py:[16] - [INFO] - 在登录页面用正确的账号密码进行登录
+2023-02-05 17:38:45,475 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[contains(text(),'账号密码登录')]"]
+2023-02-05 17:38:46,733 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入账号/手机号码']"], 接收的text是：15200000001
+2023-02-05 17:38:47,490 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码']"], 接收的text是：111111.
+2023-02-05 17:38:47,940 - base_page.py:[139] - [INFO] - 定位action是：finds_and_click, 定位的locatro是：['XPATH', "//*[text()='立即登录']"], 接收的index是：1
+2023-02-05 17:38:47,941 - login_page.py:[18] - [INFO] - 登录完成后跳转到首页
+2023-02-05 17:38:49,838 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-popover__reference']"]
+2023-02-05 17:38:49,865 - main_page.py:[52] - [INFO] - 获取到的首页登录用户名是：思源
+2023-02-05 17:38:49,865 - test_login.py:[13] - [INFO] - 获取到的结果是：思源, 期望的结果是：思源
+2023-02-05 17:38:52,299 - test_login.py:[18] - [INFO] - *******测试用例：test_use_right_account_login 断言失败为通过************
+2023-02-05 17:39:28,724 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-05 17:39:28,726 - test_login.py:[11] - [INFO] - ****************正在执行：test_use_right_account_login***************
+2023-02-05 17:39:28,726 - main_page.py:[16] - [INFO] - 在首页点击【登录】跳转到登录页面
+2023-02-05 17:39:30,099 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='登录']"]
+2023-02-05 17:39:30,101 - login_page.py:[16] - [INFO] - 在登录页面用正确的账号密码进行登录
+2023-02-05 17:39:30,880 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[contains(text(),'账号密码登录')]"]
+2023-02-05 17:39:33,260 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入账号/手机号码']"], 接收的text是：15200000001
+2023-02-05 17:39:34,149 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码']"], 接收的text是：111111.
+2023-02-05 17:39:34,449 - base_page.py:[139] - [INFO] - 定位action是：finds_and_click, 定位的locatro是：['XPATH', "//*[text()='立即登录']"], 接收的index是：1
+2023-02-05 17:39:34,449 - login_page.py:[18] - [INFO] - 登录完成后跳转到首页
+2023-02-05 17:39:36,167 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-popover__reference']"]
+2023-02-05 17:39:36,190 - main_page.py:[52] - [INFO] - 获取到的首页登录用户名是：思源
+2023-02-05 17:39:36,191 - test_login.py:[13] - [INFO] - 获取到的结果是：思源, 期望的结果是：思源
+2023-02-05 17:39:38,471 - test_login.py:[18] - [INFO] - *******测试用例：test_use_right_account_login 断言失败为通过************
+2023-02-05 17:57:21,403 - base_page.py:[31] - [INFO] - 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+2023-02-05 17:57:21,406 - test_login.py:[16] - [INFO] - ****************正在执行：test_use_right_account_login***************
+2023-02-05 17:57:21,406 - main_page.py:[16] - [INFO] - 在首页点击【登录】跳转到登录页面
+2023-02-05 17:57:22,996 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='登录']"]
+2023-02-05 17:57:22,998 - login_page.py:[16] - [INFO] - 在登录页面用正确的账号密码进行登录
+2023-02-05 17:57:23,772 - base_page.py:[132] - [INFO] - 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[contains(text(),'账号密码登录')]"]
+2023-02-05 17:57:26,455 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入账号/手机号码']"], 接收的text是：15200000001
+2023-02-05 17:57:27,220 - base_page.py:[146] - [INFO] - 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码']"], 接收的text是：111111.
+2023-02-05 17:57:27,450 - base_page.py:[139] - [INFO] - 定位action是：finds_and_click, 定位的locatro是：['XPATH', "//*[text()='立即登录']"], 接收的index是：1
+2023-02-05 17:57:27,451 - login_page.py:[18] - [INFO] - 登录完成后跳转到首页
+2023-02-05 17:57:29,923 - base_page.py:[174] - [INFO] - 定位action是：find, 定位的locatro是：['XPATH', "//*[@class='el-popover__reference']"]
+2023-02-05 17:57:29,946 - main_page.py:[52] - [INFO] - 获取到的首页登录用户名是：思源
+2023-02-05 17:57:29,947 - test_login.py:[19] - [INFO] - 获取到的结果是：思源, 期望的结果是：思源
+2023-02-05 17:57:32,217 - test_login.py:[24] - [INFO] - *******测试用例：test_use_right_account_login 断言失败为通过************

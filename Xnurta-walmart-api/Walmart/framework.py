@@ -4,7 +4,7 @@ import requests,pytest,os
 from yiyan.Xnurta.Walmart.auth import get_token  # 导入 token
 from xToolkit import xfile # 导入xToolkit，用来读取 excel
 # 读取 execl 用例，创建 excel 的时候使用.xls后缀
-test_date = xfile.read(r"/Users/liuby/PycharmProjects/pythonProject/yiyan/Xnurta/Walmart/total接口测试用例.xls").excel_to_dict(sheet=0)
+test_date = xfile.read(r"/Users/liuby/PycharmProjects/pythonProject/Auto-test/Xnurta-walmart-api/Walmart/total接口测试用例.xls").excel_to_dict(sheet=0)
 # print(test_date)
 # print(test_date[0]["URL地址"]) # 第一行用例的URL，用下标获取
 # for data in test_date: #循环列表 url 地址

@@ -1,0 +1,9 @@
+INFO     py_page.base_page:base_page.py:31 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+INFO     test_case.test_login:test_login.py:19 ****************正在执行：test_use_right_account_login***************
+INFO     py_page.main_page:main_page.py:16 在首页点击【登录】跳转到登录页面
+INFO     py_page.base_page:base_page.py:132 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[text()='登录']"]
+INFO     py_page.login_page:login_page.py:16 在登录页面用正确的账号密码进行登录
+INFO     py_page.base_page:base_page.py:132 定位action是：find_and_click, 定位的locatro是：['XPATH', "//*[contains(text(),'账号密码登录')]"]
+INFO     py_page.base_page:base_page.py:146 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入账号/手机号码']"], 接收的text是：15200000001
+INFO     py_page.base_page:base_page.py:146 定位action是：find_and_send, 定位的locatro是：['XPATH', "//*[@placeholder='请输入密码']"], 接收的text是：111111.
+ERROR    py_page.base_page:base_page.py:141 C:\Users\37210\Desktop\测开班_16\WebUiTestFrame/py_yaml/login_page.yaml:finds_and_click:['XPATH', "//*[text()='立即注册']"]元素定位异常，错误信息：list indices must be integers or slices, not NoneType

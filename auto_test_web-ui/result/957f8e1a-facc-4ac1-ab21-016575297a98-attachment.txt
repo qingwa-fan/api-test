@@ -1,0 +1,3 @@
+INFO     py_page.base_page:base_page.py:31 测试的url是：https://deyunce:911917@mall.deyunce.com/pc/
+INFO     py_page.main_page:main_page.py:31 在首页点击index=2的商品，进入商品详情
+INFO     py_page.base_page:base_page.py:139 定位action是：finds_and_click, 定位的locatro是：['XPATH', "//*[@class='name line2']"], 接收的index是：2

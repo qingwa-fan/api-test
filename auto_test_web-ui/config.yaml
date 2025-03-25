@@ -1,0 +1,21 @@
+
+Email:   # 邮箱配置
+  mail_host: "smtp.qq.com"
+  mail_user: "372109913"
+  mail_pass: "fyrwqnzwikyicbdg"
+  sender: '372109913@qq.com'
+  receives: ['smilepassed@163.com']
+
+# {"Email":{"mail_host":xxxx, "mail_user":"xxxx"....}}
+
+test_allure: # 执行命令配置
+  run_test_allure: "python -m pytest ./test_case/ -s -q --alluredir=./result/"
+  make_allure_report: "allure generate ./result/ -o ./report/ --clean"
+
+
+db_connect: # 数据库连接配置
+  host: '47.103.126.208'
+  user: 'siyuan'
+  password: '123456'
+  database: 'mall'
+  charset: 'utf8'
