@@ -1,0 +1,242 @@
+{
+  "uid" : "12df75433145f41",
+  "name" : "test_HideShowChart[Overall]",
+  "fullName" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_Excel.TestExcel#test_HideShowChart",
+  "historyId" : "057bfd081ebe9218e86937e71faf20a9",
+  "time" : {
+    "start" : 1742520781397,
+    "stop" : 1742520812143,
+    "duration" : 30746
+  },
+  "description" : "搜索词分析模型底部excel",
+  "descriptionHtml" : "<p>搜索词分析模型底部excel</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1742520666119,
+      "stop" : 1742520781113,
+      "duration" : 114994
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1742520666134,
+        "stop" : 1742520751346,
+        "duration" : 85212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://wtest.xnurta.com/login'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "进入AMC模型库",
+      "time" : {
+        "start" : 1742520751347,
+        "stop" : 1742520763158,
+        "duration" : 11811
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入AMC模型库,点击AMC数据工作室-AMC模型库",
+        "time" : {
+          "start" : 1742520751348,
+          "stop" : 1742520763152,
+          "duration" : 11804
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "搜索店铺",
+      "time" : {
+        "start" : 1742520763158,
+        "stop" : 1742520781112,
+        "duration" : 17954
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "搜索进入店铺：sparkxeubaleafeu",
+        "time" : {
+          "start" : 1742520763177,
+          "stop" : 1742520781112,
+          "duration" : 17935
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'sparkxeubaleafeu'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1742520642109,
+      "stop" : 1742520666117,
+      "duration" : 24008
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "搜索词分析模型底部excel",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "选择模型",
+      "time" : {
+        "start" : 1742520781432,
+        "stop" : 1742520786002,
+        "duration" : 4570
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'SearchTermAnalysis'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "隐藏/显示图表",
+      "time" : {
+        "start" : 1742520786002,
+        "stop" : 1742520812143,
+        "duration" : 26141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entrance",
+        "value" : "'Overall'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "9b4968a5246130fa",
+      "name" : "log",
+      "source" : "9b4968a5246130fa.txt",
+      "type" : "text/plain",
+      "size" : 35127
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1742520812176,
+      "stop" : 1742520815951,
+      "duration" : 3775
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "搜索词分析模型-隐藏/显示图表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis"
+  }, {
+    "name" : "suite",
+    "value" : "test_Excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T9E779QS"
+  }, {
+    "name" : "thread",
+    "value" : "2028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_Excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "entrance",
+    "value" : "'Overall'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12df75433145f41.json",
+  "parameterValues" : [ "'Overall'" ]
+}

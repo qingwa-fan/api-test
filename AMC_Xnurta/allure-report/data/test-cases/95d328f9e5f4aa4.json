@@ -1,0 +1,263 @@
+{
+  "uid" : "95d328f9e5f4aa4",
+  "name" : "test_TestSearchIermTypeKey[Contains]",
+  "fullName" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_TopSearch.TestTopSearch#test_TestSearchIermTypeKey",
+  "historyId" : "293b241dcb19140967deb27ee0db6f11",
+  "time" : {
+    "start" : 1742521201944,
+    "stop" : 1742521254710,
+    "duration" : 52766
+  },
+  "description" : "搜索词分析模型-顶部筛选-搜索词类型",
+  "descriptionHtml" : "<p>搜索词分析模型-顶部筛选-搜索词类型</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1742521117728,
+      "stop" : 1742521122822,
+      "duration" : 5094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1742521122822,
+      "stop" : 1742521201936,
+      "duration" : 79114
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1742521122994,
+        "stop" : 1742521167185,
+        "duration" : 44191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://wtest.xnurta.com/login'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "进入AMC模型库",
+      "time" : {
+        "start" : 1742521167185,
+        "stop" : 1742521185271,
+        "duration" : 18086
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入AMC模型库,点击AMC数据工作室-AMC模型库",
+        "time" : {
+          "start" : 1742521167186,
+          "stop" : 1742521185271,
+          "duration" : 18085
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "搜索店铺",
+      "time" : {
+        "start" : 1742521185271,
+        "stop" : 1742521201936,
+        "duration" : 16665
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "搜索进入店铺：sparkxeubaleafeu",
+        "time" : {
+          "start" : 1742521185288,
+          "stop" : 1742521201936,
+          "duration" : 16648
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'sparkxeubaleafeu'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  } ],
+  "testStage" : {
+    "description" : "搜索词分析模型-顶部筛选-搜索词类型",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "选择模型",
+      "time" : {
+        "start" : 1742521201950,
+        "stop" : 1742521206710,
+        "duration" : 4760
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'SearchTermAnalysis'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "总览/关联搜索里面-模糊/精确搜索，需先进入总览/关联搜索",
+      "time" : {
+        "start" : 1742521206730,
+        "stop" : 1742521227761,
+        "duration" : 21031
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search_type",
+        "value" : "'Contains'"
+      }, {
+        "name" : "entrance",
+        "value" : "'key'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "关联搜索-搜索词搜索",
+      "time" : {
+        "start" : 1742521227765,
+        "stop" : 1742521254710,
+        "duration" : 26945
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entrance",
+        "value" : "'key'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "66d316ba2b7ad35f",
+      "name" : "log",
+      "source" : "66d316ba2b7ad35f.txt",
+      "type" : "text/plain",
+      "size" : 55739
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1742521254810,
+      "stop" : 1742521258855,
+      "duration" : 4045
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "搜索词分析模型-顶部筛选-搜索词类型-关键词"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis"
+  }, {
+    "name" : "suite",
+    "value" : "test_TopSearch"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTopSearch"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T9E779QS"
+  }, {
+    "name" : "thread",
+    "value" : "2028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_TopSearch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "search_type",
+    "value" : "'Contains'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95d328f9e5f4aa4.json",
+  "parameterValues" : [ "'Contains'" ]
+}

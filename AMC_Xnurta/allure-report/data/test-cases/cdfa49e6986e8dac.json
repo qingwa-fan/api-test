@@ -1,0 +1,251 @@
+{
+  "uid" : "cdfa49e6986e8dac",
+  "name" : "test_Screen[RelatedSearch]",
+  "fullName" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_Excel.TestExcel#test_Screen",
+  "historyId" : "6096b24944a848074e58319ba98fa7c6",
+  "time" : {
+    "start" : 1742521064053,
+    "stop" : 1742521126811,
+    "duration" : 62758
+  },
+  "description" : "搜索词分析模型底部excel",
+  "descriptionHtml" : "<p>搜索词分析模型底部excel</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1742520982201,
+      "stop" : 1742521064049,
+      "duration" : 81848
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1742520982273,
+        "stop" : 1742521029977,
+        "duration" : 47704
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://wtest.xnurta.com/login'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "进入AMC模型库",
+      "time" : {
+        "start" : 1742521029978,
+        "stop" : 1742521049807,
+        "duration" : 19829
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入AMC模型库,点击AMC数据工作室-AMC模型库",
+        "time" : {
+          "start" : 1742521029978,
+          "stop" : 1742521049807,
+          "duration" : 19829
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "搜索店铺",
+      "time" : {
+        "start" : 1742521049808,
+        "stop" : 1742521064049,
+        "duration" : 14241
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "搜索进入店铺：sparkxeubaleafeu",
+        "time" : {
+          "start" : 1742521049810,
+          "stop" : 1742521064048,
+          "duration" : 14238
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'sparkxeubaleafeu'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1742520949797,
+      "stop" : 1742520982201,
+      "duration" : 32404
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "搜索词分析模型底部excel",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "选择模型",
+      "time" : {
+        "start" : 1742521064092,
+        "stop" : 1742521067787,
+        "duration" : 3695
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'SearchTermAnalysis'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "全屏/关闭全屏",
+      "time" : {
+        "start" : 1742521067787,
+        "stop" : 1742521126811,
+        "duration" : 59024
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entrance",
+        "value" : "'RelatedSearch'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "906eb15c9af1c2ed",
+      "name" : "log",
+      "source" : "906eb15c9af1c2ed.txt",
+      "type" : "text/plain",
+      "size" : 53411
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1742521126815,
+      "stop" : 1742521130791,
+      "duration" : 3976
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "搜索词分析模型-全屏/取消全屏"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis"
+  }, {
+    "name" : "suite",
+    "value" : "test_Excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T9E779QS"
+  }, {
+    "name" : "thread",
+    "value" : "9972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_Excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "entrance",
+    "value" : "'RelatedSearch'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "89eee595279c2be8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x00388BA9]\n\t(No symbol) [0x00388EFB]\n\t(No symbol) [0x003D19C2]\n\t(No symbol) [0x003AD894]\n\t(No symbol) [0x003CF138]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]",
+      "time" : {
+        "start" : 1742520894612,
+        "stop" : 1742520894612,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdfa49e6986e8dac.json",
+  "parameterValues" : [ "'RelatedSearch'" ]
+}

@@ -1,0 +1,173 @@
+{
+  "uid" : "dd360582c4b750d8",
+  "name" : "test_AccountLogon[-]",
+  "fullName" : "TestCase.Common.Login.test_Login.TestLogin#test_AccountLogon",
+  "historyId" : "705f323b230cc4bca681411b6202312c",
+  "time" : {
+    "start" : 1742521248640,
+    "stop" : 1742521292373,
+    "duration" : 43733
+  },
+  "description" : "登录功能测试，用户名/密码为空和错误",
+  "descriptionHtml" : "<p>登录功能测试，用户名/密码为空和错误</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1742521224291,
+      "stop" : 1742521248613,
+      "duration" : 24322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "登录功能测试，用户名/密码为空和错误",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录网站: https://wtest.xnurta.com/login",
+      "time" : {
+        "start" : 1742521248791,
+        "stop" : 1742521259137,
+        "duration" : 10346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入用户名密码",
+      "time" : {
+        "start" : 1742521259137,
+        "stop" : 1742521259139,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b30427f6631eea8",
+        "name" : "用户名/密码",
+        "source" : "b30427f6631eea8.attach",
+        "type" : "text/plain",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "登录提示校验",
+      "time" : {
+        "start" : 1742521261925,
+        "stop" : 1742521262371,
+        "duration" : 446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a02db51f4e69d55e",
+        "name" : "提示",
+        "source" : "a02db51f4e69d55e.attach",
+        "type" : "text/plain",
+        "size" : 25
+      }, {
+        "uid" : "333515f2230ba123",
+        "name" : "提示",
+        "source" : "333515f2230ba123.attach",
+        "type" : "text/plain",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "8bf26b408799e097",
+      "name" : "log",
+      "source" : "8bf26b408799e097.txt",
+      "type" : "text/plain",
+      "size" : 17351
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1742521292379,
+      "stop" : 1742521294781,
+      "duration" : 2402
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Common.Login"
+  }, {
+    "name" : "suite",
+    "value" : "test_Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T9E779QS"
+  }, {
+    "name" : "thread",
+    "value" : "16364-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Common.Login.test_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "passwd",
+    "value" : "''"
+  }, {
+    "name" : "user",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd360582c4b750d8.json",
+  "parameterValues" : [ "''", "''" ]
+}

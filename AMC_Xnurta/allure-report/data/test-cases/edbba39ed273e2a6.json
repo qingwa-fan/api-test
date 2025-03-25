@@ -1,0 +1,269 @@
+{
+  "uid" : "edbba39ed273e2a6",
+  "name" : "test_ComposeModelQuery",
+  "fullName" : "TestCase.AMCModelGallery.CustomerLifetimeValue.test_CreateModel.TestCreateModel#test_ComposeModelQuery",
+  "historyId" : "78f66a41031bb9aa966d50e6c3f14f7f",
+  "time" : {
+    "start" : 1742521029260,
+    "stop" : 1742521105699,
+    "duration" : 76439
+  },
+  "description" : "创建模型",
+  "descriptionHtml" : "<p>创建模型</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1742520943903,
+      "stop" : 1742521029253,
+      "duration" : 85350
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1742520943987,
+        "stop" : 1742520994540,
+        "duration" : 50553
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://wtest.xnurta.com/login'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "进入AMC模型库",
+      "time" : {
+        "start" : 1742520994540,
+        "stop" : 1742521011361,
+        "duration" : 16821
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入AMC模型库,点击AMC数据工作室-AMC模型库",
+        "time" : {
+          "start" : 1742520994541,
+          "stop" : 1742521011361,
+          "duration" : 16820
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "搜索店铺",
+      "time" : {
+        "start" : 1742521011361,
+        "stop" : 1742521029253,
+        "duration" : 17892
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "搜索进入店铺：sparkxeubaleafeu",
+        "time" : {
+          "start" : 1742521011361,
+          "stop" : 1742521029253,
+          "duration" : 17892
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'sparkxeubaleafeu'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1742520939603,
+      "stop" : 1742520943903,
+      "duration" : 4300
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "创建模型",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "选择模型",
+      "time" : {
+        "start" : 1742521029293,
+        "stop" : 1742521034873,
+        "duration" : 5580
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'CustomerLifetimeValue'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "我的模型列表字段获取",
+      "time" : {
+        "start" : 1742521084502,
+        "stop" : 1742521093302,
+        "duration" : 8800
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "row",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "我的模型列表操作",
+      "time" : {
+        "start" : 1742521093303,
+        "stop" : 1742521105698,
+        "duration" : 12395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "operate",
+        "value" : "'delete'"
+      }, {
+        "name" : "row",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "d1131d360b1508ff",
+      "name" : "log",
+      "source" : "d1131d360b1508ff.txt",
+      "type" : "text/plain",
+      "size" : 120552
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1742521105707,
+      "stop" : 1742521113547,
+      "duration" : 7840
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "顾客终身价值分析模型-定义模型条件"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.AMCModelGallery.CustomerLifetimeValue"
+  }, {
+    "name" : "suite",
+    "value" : "test_CreateModel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateModel"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T9E779QS"
+  }, {
+    "name" : "thread",
+    "value" : "16364-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.AMCModelGallery.CustomerLifetimeValue.test_CreateModel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aa79b4db4667f35a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x00388BA9]\n\t(No symbol) [0x00388EFB]\n\t(No symbol) [0x003D19C2]\n\t(No symbol) [0x003AD894]\n\t(No symbol) [0x003CF138]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]",
+      "time" : {
+        "start" : 1742520881917,
+        "stop" : 1742520921992,
+        "duration" : 40075
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "edbba39ed273e2a6.json",
+  "parameterValues" : [ ]
+}

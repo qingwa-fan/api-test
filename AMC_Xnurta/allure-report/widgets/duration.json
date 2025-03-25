@@ -1,0 +1,531 @@
+[ {
+  "uid" : "751c1bdfa1bc9c27",
+  "name" : "test_TestSearchIermTypeKey[Exact]",
+  "time" : {
+    "start" : 1742521347334,
+    "stop" : 1742521372370,
+    "duration" : 25036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a205c0343c80514",
+  "name" : "test_CustomizeColumns[Overall]",
+  "time" : {
+    "start" : 1742521018395,
+    "stop" : 1742521055641,
+    "duration" : 37246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd67b30b3d7c9c7e",
+  "name" : "test_CustomizeColumns[RelatedSearch]",
+  "time" : {
+    "start" : 1742521002216,
+    "stop" : 1742521039621,
+    "duration" : 37405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd360582c4b750d8",
+  "name" : "test_AccountLogon[-]",
+  "time" : {
+    "start" : 1742521248640,
+    "stop" : 1742521292373,
+    "duration" : 43733
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcde74c0f649d6",
+  "name" : "test_Export[CostRecoveryMarkerMonthlyCohort]",
+  "time" : {
+    "start" : 1742520890363,
+    "stop" : 1742520909745,
+    "duration" : 19382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3b3e34519852764",
+  "name" : "test_OperatingMargin[99]",
+  "time" : {
+    "start" : 1742520951539,
+    "stop" : 1742520979003,
+    "duration" : 27464
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2419b62180e68f34",
+  "name" : "test_HideShowChart[RelatedSearch]",
+  "time" : {
+    "start" : 1742520916118,
+    "stop" : 1742520961801,
+    "duration" : 45683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37297d0e6d060ef5",
+  "name" : "test_TestSearchTarget[auto_close]",
+  "time" : {
+    "start" : 1742521067203,
+    "stop" : 1742521135437,
+    "duration" : 68234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95d328f9e5f4aa4",
+  "name" : "test_TestSearchIermTypeKey[Contains]",
+  "time" : {
+    "start" : 1742521201944,
+    "stop" : 1742521254710,
+    "duration" : 52766
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ac3e799025743e6",
+  "name" : "test_TestSearchTarget[exact]",
+  "time" : {
+    "start" : 1742521134096,
+    "stop" : 1742521204802,
+    "duration" : 70706
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abed8933ed9c31bf",
+  "name" : "test_SaveAsMyModel",
+  "time" : {
+    "start" : 1742520755085,
+    "stop" : 1742520755085,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ceb22fe10bd68c2f",
+  "name" : "test_OperatingMargin[50]",
+  "time" : {
+    "start" : 1742520814032,
+    "stop" : 1742520832539,
+    "duration" : 18507
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb0ea5bed0c42485",
+  "name" : "test_AccountLogon[leo.sui@sparkxmarketing.com-123456A1]",
+  "time" : {
+    "start" : 1742521262758,
+    "stop" : 1742521312254,
+    "duration" : 49496
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8351dfad303cc62f",
+  "name" : "test_TestSearchTarget[broad]",
+  "time" : {
+    "start" : 1742521136639,
+    "stop" : 1742521208810,
+    "duration" : 72171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41e92621fa359849",
+  "name" : "test_ComposeModelQuery",
+  "time" : {
+    "start" : 1742520872682,
+    "stop" : 1742520922337,
+    "duration" : 49655
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d3c8da268b9633a",
+  "name" : "test_CostRecoveryMarker",
+  "time" : {
+    "start" : 1742520770528,
+    "stop" : 1742520808692,
+    "duration" : 38164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f175de6a3690908c",
+  "name" : "test_TestSearchTarget[auto_substitutes]",
+  "time" : {
+    "start" : 1742521186288,
+    "stop" : 1742521186288,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "95f0499187de7d4d",
+  "name" : "test_DataComparison",
+  "time" : {
+    "start" : 1742520756965,
+    "stop" : 1742520828937,
+    "duration" : 71972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "518a2d5eb78bc398",
+  "name" : "test_TestSearchItemTypeProduct[Exact]",
+  "time" : {
+    "start" : 1742521198386,
+    "stop" : 1742521261110,
+    "duration" : 62724
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eae5fbe87b47a074",
+  "name" : "test_Screen[Overall]",
+  "time" : {
+    "start" : 1742520833361,
+    "stop" : 1742520888365,
+    "duration" : 55004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f85fef8f6bee565",
+  "name" : "test_CostRecoveryMarker",
+  "time" : {
+    "start" : 1742520832211,
+    "stop" : 1742520861948,
+    "duration" : 29737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e2c94762efc0bbb",
+  "name" : "test_TestSearchPlacement[HomePage]",
+  "time" : {
+    "start" : 1742521127511,
+    "stop" : 1742521162374,
+    "duration" : 34863
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65ba8a3ce925e6e8",
+  "name" : "test_Grouped",
+  "time" : {
+    "start" : 1742520952694,
+    "stop" : 1742521026127,
+    "duration" : 73433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fb43353808f6514",
+  "name" : "test_OperatingMargin[99]",
+  "time" : {
+    "start" : 1742520883434,
+    "stop" : 1742520898793,
+    "duration" : 15359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df96defa5d3c0cb0",
+  "name" : "test_TestSearchTarget[phrase]",
+  "time" : {
+    "start" : 1742521137806,
+    "stop" : 1742521205095,
+    "duration" : 67289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55b10f0f24cabb37",
+  "name" : "test_OperatingMargin[50]",
+  "time" : {
+    "start" : 1742520772777,
+    "stop" : 1742520786313,
+    "duration" : 13536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70773fa67a64cc7a",
+  "name" : "test_OperatingMargin[1]",
+  "time" : {
+    "start" : 1742520898164,
+    "stop" : 1742520913861,
+    "duration" : 15697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "716cfc80f468af24",
+  "name" : "test_AdsAccountSearch[CN]",
+  "time" : {
+    "start" : 1742521263520,
+    "stop" : 1742521276670,
+    "duration" : 13150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12df75433145f41",
+  "name" : "test_HideShowChart[Overall]",
+  "time" : {
+    "start" : 1742520781397,
+    "stop" : 1742520812143,
+    "duration" : 30746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90657ccec44261a6",
+  "name" : "test_TestSearchPlacement[Off-Amazon]",
+  "time" : {
+    "start" : 1742521135295,
+    "stop" : 1742521180988,
+    "duration" : 45693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3da6d9f531e12616",
+  "name" : "test_TestSearchTarget[auto_loose]",
+  "time" : {
+    "start" : 1742521191951,
+    "stop" : 1742521242569,
+    "duration" : 50618
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7ecc8862c7171af",
+  "name" : "test_OperatingMargin[1]",
+  "time" : {
+    "start" : 1742520972159,
+    "stop" : 1742520991914,
+    "duration" : 19755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64610c644edadc2a",
+  "name" : "test_AccountLogon[-123456A]",
+  "time" : {
+    "start" : 1742521276948,
+    "stop" : 1742521322361,
+    "duration" : 45413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bc93e76ab302912",
+  "name" : "test_TestSearchAds[SB]",
+  "time" : {
+    "start" : 1742521196267,
+    "stop" : 1742521220446,
+    "duration" : 24179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "153acd50581617e3",
+  "name" : "test_TestSearchItemTypeProduct[Contains]",
+  "time" : {
+    "start" : 1742521209788,
+    "stop" : 1742521266027,
+    "duration" : 56239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4d434f283544e42",
+  "name" : "test_TestSearchAds[SP]",
+  "time" : {
+    "start" : 1742520999661,
+    "stop" : 1742521020360,
+    "duration" : 20699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "124086c3fb40c516",
+  "name" : "test_SaveAsMyModel",
+  "time" : {
+    "start" : 1742521276376,
+    "stop" : 1742521298065,
+    "duration" : 21689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8d81bd3b3e5ca51",
+  "name" : "test_AdsAccountSearch[Account3]",
+  "time" : {
+    "start" : 1742521345902,
+    "stop" : 1742521355670,
+    "duration" : 9768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "898a0fb7e3bc54be",
+  "name" : "test_AdsAccountSearch[UK]",
+  "time" : {
+    "start" : 1742521338816,
+    "stop" : 1742521348143,
+    "duration" : 9327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c1ca084b0ece852",
+  "name" : "test_TestSearchPlacement[Top]",
+  "time" : {
+    "start" : 1742521010498,
+    "stop" : 1742521033876,
+    "duration" : 23378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b32fabb0a5f8409",
+  "name" : "test_AdsAccountSearch[Account2]",
+  "time" : {
+    "start" : 1742521338903,
+    "stop" : 1742521346710,
+    "duration" : 7807
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e6edcf8fcd07ab1",
+  "name" : "test_Export[SearchTermAnalysisOverall]",
+  "time" : {
+    "start" : 1742520823526,
+    "stop" : 1742520835701,
+    "duration" : 12175
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c9b1c6a89c3c58c1",
+  "name" : "test_AccountLogon[leo.sui@sparkxmarketing.com-]",
+  "time" : {
+    "start" : 1742521269904,
+    "stop" : 1742521312987,
+    "duration" : 43083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "946bb0e9918f6bb6",
+  "name" : "test_TestSearchPlacement[Detail]",
+  "time" : {
+    "start" : 1742521075109,
+    "stop" : 1742521113332,
+    "duration" : 38223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffe7d328bb51359f",
+  "name" : "test_Export[SearchTermAnalysisRelatedSearch]",
+  "time" : {
+    "start" : 1742520948847,
+    "stop" : 1742520973128,
+    "duration" : 24281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdfa49e6986e8dac",
+  "name" : "test_Screen[RelatedSearch]",
+  "time" : {
+    "start" : 1742521064053,
+    "stop" : 1742521126811,
+    "duration" : 62758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "597fc4dec946048a",
+  "name" : "test_ComposeModelQuery",
+  "time" : {
+    "start" : 1742521320523,
+    "stop" : 1742521347757,
+    "duration" : 27234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b3fbc4e1ae0c925",
+  "name" : "test_TestSearchPlacement[Rest]",
+  "time" : {
+    "start" : 1742521043126,
+    "stop" : 1742521056542,
+    "duration" : 13416
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36bf2785e42174b7",
+  "name" : "test_SaveAsMyModel",
+  "time" : {
+    "start" : 1742520766766,
+    "stop" : 1742520804119,
+    "duration" : 37353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edbba39ed273e2a6",
+  "name" : "test_ComposeModelQuery",
+  "time" : {
+    "start" : 1742521029260,
+    "stop" : 1742521105699,
+    "duration" : 76439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a81f7d936f8fda7e",
+  "name" : "test_Accumulative[RPR]",
+  "time" : {
+    "start" : 1742520756147,
+    "stop" : 1742520809591,
+    "duration" : 53444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8fee99b1e3c80a9",
+  "name" : "test_Accumulative[Purchase_UV]",
+  "time" : {
+    "start" : 1742520901853,
+    "stop" : 1742520943758,
+    "duration" : 41905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b15cc2fb4e9fec51",
+  "name" : "test_Export[CostRecoveryMarkerOverall]",
+  "time" : {
+    "start" : 1742520760093,
+    "stop" : 1742520780496,
+    "duration" : 20403
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

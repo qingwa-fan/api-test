@@ -1,0 +1,287 @@
+{
+  "uid" : "518a2d5eb78bc398",
+  "name" : "test_TestSearchItemTypeProduct[Exact]",
+  "fullName" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_TopSearch.TestTopSearch#test_TestSearchItemTypeProduct",
+  "historyId" : "709d982d1ed28b2a8683a2b094ed1807",
+  "time" : {
+    "start" : 1742521198386,
+    "stop" : 1742521261110,
+    "duration" : 62724
+  },
+  "description" : "搜索词分析模型-顶部筛选-搜索词类型",
+  "descriptionHtml" : "<p>搜索词分析模型-顶部筛选-搜索词类型</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1742521113964,
+      "stop" : 1742521118681,
+      "duration" : 4717
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1742521118681,
+      "stop" : 1742521198383,
+      "duration" : 79702
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1742521118768,
+        "stop" : 1742521167184,
+        "duration" : 48416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://wtest.xnurta.com/login'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "进入AMC模型库",
+      "time" : {
+        "start" : 1742521167184,
+        "stop" : 1742521183966,
+        "duration" : 16782
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入AMC模型库,点击AMC数据工作室-AMC模型库",
+        "time" : {
+          "start" : 1742521167185,
+          "stop" : 1742521183966,
+          "duration" : 16781
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "搜索店铺",
+      "time" : {
+        "start" : 1742521183966,
+        "stop" : 1742521198383,
+        "duration" : 14417
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "搜索进入店铺：sparkxeubaleafeu",
+        "time" : {
+          "start" : 1742521183967,
+          "stop" : 1742521198382,
+          "duration" : 14415
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'sparkxeubaleafeu'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  } ],
+  "testStage" : {
+    "description" : "搜索词分析模型-顶部筛选-搜索词类型",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "选择模型",
+      "time" : {
+        "start" : 1742521198517,
+        "stop" : 1742521203848,
+        "duration" : 5331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'SearchTermAnalysis'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "搜索词类型切换",
+      "time" : {
+        "start" : 1742521203849,
+        "stop" : 1742521216786,
+        "duration" : 12937
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "总览/关联搜索里面-模糊/精确搜索，需先进入总览/关联搜索",
+      "time" : {
+        "start" : 1742521216787,
+        "stop" : 1742521238542,
+        "duration" : 21755
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search_type",
+        "value" : "'Exact'"
+      }, {
+        "name" : "entrance",
+        "value" : "'product'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "关联搜索-搜索词搜索",
+      "time" : {
+        "start" : 1742521238544,
+        "stop" : 1742521261078,
+        "duration" : 22534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entrance",
+        "value" : "'product'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "18cc3ae838d816fe",
+      "name" : "log",
+      "source" : "18cc3ae838d816fe.txt",
+      "type" : "text/plain",
+      "size" : 73398
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1742521261122,
+      "stop" : 1742521264819,
+      "duration" : 3697
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "顶搜索词分析模型-部筛选-搜索词类型-定向"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis"
+  }, {
+    "name" : "suite",
+    "value" : "test_TopSearch"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTopSearch"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T9E779QS"
+  }, {
+    "name" : "thread",
+    "value" : "14644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_TopSearch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "search_type",
+    "value" : "'Exact'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f8474bd455ceccb7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: chrome=134.0.6998.89)\nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x0033127B]\n\t(No symbol) [0x00330FB1]\n\t(No symbol) [0x0032EE80]\n\t(No symbol) [0x0032FA3D]\n\t(No symbol) [0x0033C049]\n\t(No symbol) [0x0034D9B5]\n\t(No symbol) [0x00353266]\n\t(No symbol) [0x0033004D]\n\t(No symbol) [0x0034D75E]\n\t(No symbol) [0x003CF047]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]",
+      "time" : {
+        "start" : 1742521060927,
+        "stop" : 1742521060927,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "518a2d5eb78bc398.json",
+  "parameterValues" : [ "'Exact'" ]
+}

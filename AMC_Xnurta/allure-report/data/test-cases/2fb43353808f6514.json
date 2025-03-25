@@ -1,0 +1,245 @@
+{
+  "uid" : "2fb43353808f6514",
+  "name" : "test_OperatingMargin[99]",
+  "fullName" : "TestCase.AMCModelGallery.CustomerLifetimeValue.test_OverAll.TestOverAll#test_OperatingMargin",
+  "historyId" : "b510d2ff956ac7e469a86affae44c76a",
+  "time" : {
+    "start" : 1742520883434,
+    "stop" : 1742520898793,
+    "duration" : 15359
+  },
+  "description" : "顾客终身价值分析-总览",
+  "descriptionHtml" : "<p>顾客终身价值分析-总览</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1742520795120,
+      "stop" : 1742520808256,
+      "duration" : 13136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1742520808256,
+      "stop" : 1742520883428,
+      "duration" : 75172
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1742520808274,
+        "stop" : 1742520849171,
+        "duration" : 40897
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://wtest.xnurta.com/login'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "进入AMC模型库",
+      "time" : {
+        "start" : 1742520849171,
+        "stop" : 1742520866560,
+        "duration" : 17389
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入AMC模型库,点击AMC数据工作室-AMC模型库",
+        "time" : {
+          "start" : 1742520849172,
+          "stop" : 1742520866558,
+          "duration" : 17386
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "搜索店铺",
+      "time" : {
+        "start" : 1742520866561,
+        "stop" : 1742520883428,
+        "duration" : 16867
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "搜索进入店铺：sparkxeubaleafeu",
+        "time" : {
+          "start" : 1742520866561,
+          "stop" : 1742520883428,
+          "duration" : 16867
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'sparkxeubaleafeu'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  } ],
+  "testStage" : {
+    "description" : "顾客终身价值分析-总览",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "选择模型",
+      "time" : {
+        "start" : 1742520883769,
+        "stop" : 1742520889146,
+        "duration" : 5377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'CustomerLifetimeValue'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "利润率",
+      "time" : {
+        "start" : 1742520889147,
+        "stop" : 1742520898793,
+        "duration" : 9646
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "'99'"
+      }, {
+        "name" : "entrance",
+        "value" : "'overall'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "f98486d85fbc3c00",
+      "name" : "log",
+      "source" : "f98486d85fbc3c00.txt",
+      "type" : "text/plain",
+      "size" : 47654
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1742520898795,
+      "stop" : 1742520905625,
+      "duration" : 6830
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "顾客终身价值分析模型-总览-利润率"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.AMCModelGallery.CustomerLifetimeValue"
+  }, {
+    "name" : "suite",
+    "value" : "test_OverAll"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOverAll"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T9E779QS"
+  }, {
+    "name" : "thread",
+    "value" : "5576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.AMCModelGallery.CustomerLifetimeValue.test_OverAll"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "value",
+    "value" : "'99'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fb43353808f6514.json",
+  "parameterValues" : [ "'99'" ]
+}

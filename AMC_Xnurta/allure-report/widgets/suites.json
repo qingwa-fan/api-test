@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "4043bb792285d4e9fbe945aef7ca21f6",
+    "name" : "TestCase.AMCModelGallery.SearchTermAnalysis",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 26,
+      "unknown" : 0,
+      "total" : 29
+    }
+  }, {
+    "uid" : "b941551cd9fe6da2001efeb99e17ac89",
+    "name" : "TestCase.AMCModelGallery.CustomerLifetimeValue",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "42a41e46d7c3db43bf107420717770ba",
+    "name" : "TestCase.AMCModelGallery.UniqueReach",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "3b91ab5c1f105a4cf55bc896ac210864",
+    "name" : "TestCase.Common.Login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

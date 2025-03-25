@@ -1,0 +1,255 @@
+{
+  "uid" : "a6ce7788a6639949",
+  "name" : "test_TestSearchIermTypeKey[Exact]",
+  "fullName" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_TopSearch.TestTopSearch#test_TestSearchIermTypeKey",
+  "historyId" : "03656951270895b1c19ad222c0fa7665",
+  "time" : {
+    "start" : 1742521264518,
+    "stop" : 1742521280354,
+    "duration" : 15836
+  },
+  "description" : "搜索词分析模型-顶部筛选-搜索词类型",
+  "descriptionHtml" : "<p>搜索词分析模型-顶部筛选-搜索词类型</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <TestCase.AMCModelGallery.SearchTermAnalysis.test_TopSearch.TestTopSearch object at 0x000002473777A2C0>\ndrivers = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5653bdd8eb5be73aa52d865697a92a86\")>\nsearch_type = 'Exact'\n\n    @pytest.mark.parametrize('search_type', ['Contains','Exact'])\n    @allure.story('搜索词分析模型-顶部筛选-搜索词类型-关键词')\n    def test_TestSearchIermTypeKey(self, drivers,search_type):\n        \"\"\"\n        1、总览快捷搜搜\n        2、切换关联搜搜，搜索词搜索关键词\n        \"\"\"\n        common = SearchTermAnalysis(drivers)\n        common.ChooseModel(name='SearchTermAnalysis')\n        # 精准搜索\n>       common.ContainExctSearcg(search_type,entrance='key')\n\nTestCase\\AMCModelGallery\\SearchTermAnalysis\\test_TopSearch.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page_object.SearchTermAnalysis.SearchTermAnalysis object at 0x00000247378DE780>\nsearch_type = 'Exact', entrance = 'key'\n\n    @allure.step(\"总览/关联搜索里面-模糊/精确搜索，需先进入总览/关联搜索\")\n    def ContainExctSearcg(self,search_type='Contains',entrance='key'):\n        searchType_key_mapping = {\n            'Contains': (''' women'women',women';women'--women\\\\''','''missluck women'women',women';women'--women\\\\'''),\n            'Exact': ('''missluck women'women',women';women'--women\\\\''','''missluck women'women',women';women'--women\\\\''')\n        }\n        searchType_product_mapping = {\n            'Contains':  'B08NVFYFX',\n            'Exact': 'B08NVFYFXQ',\n        }\n        if search_type=='Exact':\n            if entrance=='key':\n                self.is_click(elementSearchTermAnalysis['定向模糊/精确搜索类型'])\n            else:\n                self.is_click(elementSearchTermAnalysis['定向模糊/精确搜索类型'])\n            self.is_click(elementSearchTermAnalysis['模糊/精确搜索类型_精准'])\n            time.sleep(1)\n        if entrance=='key':\n            self.input_text(elementSearchTermAnalysis['模糊/精确搜索'],searchType_key_mapping[search_type][0])\n        else:\n            self.input_text(elementSearchTermAnalysis['模糊/精确搜索'],searchType_product_mapping[search_type])\n        self.input_enter(elementSearchTermAnalysis['模糊/精确搜索'])\n        time.sleep(1)\n        if entrance == 'key':\n>           assert self.element_text(elementSearchTermAnalysis['总览模糊/精确搜索结果-搜索词结果'])==searchType_key_mapping[search_type][1]\nE           AssertionError\n\npage_object\\SearchTermAnalysis.py:54: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1742521188165,
+      "stop" : 1742521264503,
+      "duration" : 76338
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1742521188169,
+        "stop" : 1742521231265,
+        "duration" : 43096
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://wtest.xnurta.com/login'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "进入AMC模型库",
+      "time" : {
+        "start" : 1742521231265,
+        "stop" : 1742521250876,
+        "duration" : 19611
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入AMC模型库,点击AMC数据工作室-AMC模型库",
+        "time" : {
+          "start" : 1742521231266,
+          "stop" : 1742521250876,
+          "duration" : 19610
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "搜索店铺",
+      "time" : {
+        "start" : 1742521250877,
+        "stop" : 1742521264503,
+        "duration" : 13626
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "搜索进入店铺：sparkxeubaleafeu",
+        "time" : {
+          "start" : 1742521250894,
+          "stop" : 1742521264502,
+          "duration" : 13608
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'sparkxeubaleafeu'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1742521145426,
+      "stop" : 1742521188165,
+      "duration" : 42739
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "搜索词分析模型-顶部筛选-搜索词类型",
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <TestCase.AMCModelGallery.SearchTermAnalysis.test_TopSearch.TestTopSearch object at 0x000002473777A2C0>\ndrivers = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5653bdd8eb5be73aa52d865697a92a86\")>\nsearch_type = 'Exact'\n\n    @pytest.mark.parametrize('search_type', ['Contains','Exact'])\n    @allure.story('搜索词分析模型-顶部筛选-搜索词类型-关键词')\n    def test_TestSearchIermTypeKey(self, drivers,search_type):\n        \"\"\"\n        1、总览快捷搜搜\n        2、切换关联搜搜，搜索词搜索关键词\n        \"\"\"\n        common = SearchTermAnalysis(drivers)\n        common.ChooseModel(name='SearchTermAnalysis')\n        # 精准搜索\n>       common.ContainExctSearcg(search_type,entrance='key')\n\nTestCase\\AMCModelGallery\\SearchTermAnalysis\\test_TopSearch.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page_object.SearchTermAnalysis.SearchTermAnalysis object at 0x00000247378DE780>\nsearch_type = 'Exact', entrance = 'key'\n\n    @allure.step(\"总览/关联搜索里面-模糊/精确搜索，需先进入总览/关联搜索\")\n    def ContainExctSearcg(self,search_type='Contains',entrance='key'):\n        searchType_key_mapping = {\n            'Contains': (''' women'women',women';women'--women\\\\''','''missluck women'women',women';women'--women\\\\'''),\n            'Exact': ('''missluck women'women',women';women'--women\\\\''','''missluck women'women',women';women'--women\\\\''')\n        }\n        searchType_product_mapping = {\n            'Contains':  'B08NVFYFX',\n            'Exact': 'B08NVFYFXQ',\n        }\n        if search_type=='Exact':\n            if entrance=='key':\n                self.is_click(elementSearchTermAnalysis['定向模糊/精确搜索类型'])\n            else:\n                self.is_click(elementSearchTermAnalysis['定向模糊/精确搜索类型'])\n            self.is_click(elementSearchTermAnalysis['模糊/精确搜索类型_精准'])\n            time.sleep(1)\n        if entrance=='key':\n            self.input_text(elementSearchTermAnalysis['模糊/精确搜索'],searchType_key_mapping[search_type][0])\n        else:\n            self.input_text(elementSearchTermAnalysis['模糊/精确搜索'],searchType_product_mapping[search_type])\n        self.input_enter(elementSearchTermAnalysis['模糊/精确搜索'])\n        time.sleep(1)\n        if entrance == 'key':\n>           assert self.element_text(elementSearchTermAnalysis['总览模糊/精确搜索结果-搜索词结果'])==searchType_key_mapping[search_type][1]\nE           AssertionError\n\npage_object\\SearchTermAnalysis.py:54: AssertionError",
+    "steps" : [ {
+      "name" : "选择模型",
+      "time" : {
+        "start" : 1742521264523,
+        "stop" : 1742521268251,
+        "duration" : 3728
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'SearchTermAnalysis'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "总览/关联搜索里面-模糊/精确搜索，需先进入总览/关联搜索",
+      "time" : {
+        "start" : 1742521268252,
+        "stop" : 1742521280338,
+        "duration" : 12086
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"D:\\Python\\Lib\\site-packages\\allure_commons\\_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"E:\\AMC_Xnurta\\page_object\\SearchTermAnalysis.py\", line 54, in ContainExctSearcg\n    assert self.element_text(elementSearchTermAnalysis['总览模糊/精确搜索结果-搜索词结果'])==searchType_key_mapping[search_type][1]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search_type",
+        "value" : "'Exact'"
+      }, {
+        "name" : "entrance",
+        "value" : "'key'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "a29ede3d856c2b69",
+      "name" : "测试失败截图...20250321094128",
+      "source" : "a29ede3d856c2b69.png",
+      "type" : "image/png",
+      "size" : 395492
+    }, {
+      "uid" : "ba9e72301b6330f1",
+      "name" : "log",
+      "source" : "ba9e72301b6330f1.txt",
+      "type" : "text/plain",
+      "size" : 39937
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1742521289307,
+      "stop" : 1742521292282,
+      "duration" : 2975
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "搜索词分析模型-顶部筛选-搜索词类型-关键词"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis"
+  }, {
+    "name" : "suite",
+    "value" : "test_TopSearch"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTopSearch"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T9E779QS"
+  }, {
+    "name" : "thread",
+    "value" : "8104-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_TopSearch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "search_type",
+    "value" : "'Exact'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6ce7788a6639949.json",
+  "parameterValues" : [ "'Exact'" ]
+}

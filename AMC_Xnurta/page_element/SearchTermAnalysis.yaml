@@ -1,0 +1,63 @@
+#顶部筛选
+顶部筛选_搜索词类型: 'xpath==//div[@class="model-base-info"]/div[5]/div/div/input'
+顶部筛选_搜索词类型_切换选项商品定向: 'xpath==//span[contains(text(),"商品定向")]'
+顶部筛选_搜索词类型_已选择: 'xpath==//li[@class="el-select-dropdown__item selected"]/span'
+
+#快捷搜搜
+#搜索词分析筛选
+模糊/精确搜索类型: 'xpath==//span[@class="search-text el-dropdown-selfdefine     "]'
+定向模糊/精确搜索类型: 'xpath==//span[@class="search-text el-dropdown-selfdefine"]'
+模糊/精确搜索类型_精准: 'xpath==//ul[@class="el-dropdown-menu el-popper el-dropdown-menu--small" and @x-placement="bottom-end"]/li[2]'
+模糊/精确搜索类型_模糊: 'xpath==//ul[@class="el-dropdown-menu el-popper el-dropdown-menu--small" and @x-placement="bottom-end"]/li[1]'
+
+模糊/精确搜索: 'xpath==//input[@placeholder="Please select Search term"]'
+总览模糊/精确搜索结果-搜索词结果: 'xpath==//div[@class="xp-ad-name-column ads-name"]/span'
+关联搜索模糊/精确搜索结果-搜索词结果: 'xpath==//table[@class="vxe-table--body"]/tbody/tr[1]/td/div/span[1]'
+#快捷搜索-广告
+快捷搜搜广告: 'xpath==//div[@class="filter-flex overall"]/div[3]/div/div/input'
+快捷搜搜广告SP: 'xpath==//span[contains(text(),"商品推广SP")]'
+快捷搜搜广告SB: 'xpath==//span[contains(text(),"品牌推广SB")]'
+
+#快捷搜索-广告位
+快捷搜搜广告位: 'xpath==//div[@class="filter-flex overall"]/div[4]/div/div/input'
+下拉框第一个: 'xpath==//div[@class="el-select-dropdown el-popper is-multiple" and @x-placement="bottom-start"]/div/div/ul/li[1]/span'
+下拉框第二个: 'xpath==//div[@class="el-select-dropdown el-popper is-multiple" and @x-placement="bottom-start"]/div/div/ul/li[2]/span'
+下拉框第三个: 'xpath==//div[@class="el-select-dropdown el-popper is-multiple" and @x-placement="bottom-start"]/div/div/ul/li[3]/span'
+下拉框第四个: 'xpath==//div[@class="el-select-dropdown el-popper is-multiple" and @x-placement="bottom-start"]/div/div/ul/li[4]/span'
+下拉框第五个: 'xpath==//div[@class="el-select-dropdown el-popper is-multiple" and @x-placement="bottom-start"]/div/div/ul/li[5]/span'
+下拉框第六个: 'xpath==//div[@class="el-select-dropdown el-popper is-multiple" and @x-placement="bottom-start"]/div/div/ul/li[6]/span'
+
+#快捷搜索-定向匹配类型
+快捷搜搜定向匹配类型: 'xpath==//div[@class="filter-flex overall"]/div[5]/div/div/input'
+#自由紧密: 'xpath==//div[@class="filter-flex overall"]/div[5]/div/div/input'
+#快捷搜索-定向
+快捷搜搜定向: 'xpath==//div[@class="filter-flex overall"]/div[6]/span[2]/div/div[2]/input'
+快捷搜搜定向搜索: 'xpath==//div[@class="filter-flex overall"]/div[6]/div/div/input'
+
+
+
+#关联搜索-搜索词
+关联搜索: 'xpath==//div[@id="tab-relatedSearch"]'
+搜索词: 'xpath==//span[@class="el-tooltip item"]'
+搜索词输入: 'xpath==//div[@class="el-input el-input--small el-input--prefix el-input--suffix"]/input'
+搜索词删除: 'xpath==//i[@class="el-input__icon el-icon-circle-close el-input__clear"]'
+搜索词输入选择: 'xpath==//div[@role="listitem"]/label/span'
+
+目录_关联搜索: 'xpath==//div[@class="scatter-part xp-card"]/div[1]/div[1]'
+#词云图
+画板: 'xpath==//*[@data-zr-dom-id="zr_0"]'
+
+#搜索词分析表格数据
+表格第三列: 'xpath==//div[@class="vxe-table--main-wrapper"]/div[2]/table/tbody/tr/td[3]/div/span'
+表格第四列: 'xpath==//div[@class="vxe-table--main-wrapper"]/div[2]/table/tbody/tr/td[4]/div/span'
+表格投放类型自动: 'xpath==//i[@class="el-tooltip iconfont icon-auto item"]'
+表格投放类型非自动: 'xpath==//span[@class="el-tooltip item"]'
+表格投放类型定向: 'xpath==//span[@class="el-tooltip xp-ellipsis-text text rank"]'
+
+
+#细分/汇总切换
+细分汇总: 'xpath==//ul[@class="x-radio-group"]/li'
+#表格投放类型列
+投放类型: 'xpath==//span[contains(text(),"投放类型")]'
+表格指标名: 'xpath==//span[@class="vxe-cell--title"]'
+

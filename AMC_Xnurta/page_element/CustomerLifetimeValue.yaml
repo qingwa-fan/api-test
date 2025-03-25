@@ -1,0 +1,33 @@
+#顾客终身价值分析自定义模型
+自定义模型_时间范围提示: 'xpath==//p[@class="el-message__content"]'
+自定义模型_时间范围_开始时间: 'xpath==//div[@class="el-date-editor el-range-editor el-input__inner day-range-picker el-date-editor--daterange el-range-editor--small"]/input[1]'
+
+#成本回收
+成本回收定位器: 'xpath==//div[@class="cost-container"]/div/div[1]/div[2]'
+成本回收定位器值: 'xpath==//div[@class="cost-container"]/div/div[2]/div[2]/input'
+成本回收定位器断言: 'xpath==//div[@class="el-switch is-checked"]'
+成本回收定位器提示: 'xpath==//div[@class="cost-container"]/div/div[1]/div[1]/i'
+成本回收定位器提示内容: 'xpath==//div[@class="el-tooltip__popper is-dark"]'
+成本回收定位器开启内容二: 'xpath==//div[@class="total-card"]/div/div[1]/span'
+月度成本回收定位器开启内容二: 'xpath==//div[@class="total-card"]/div/div[2]/span'
+
+总览卡片值: 'xpath==//div[@class="total-card"]/div/div[3]'
+月度卡片值: 'xpath==//div[@class="total-card"]/div/div[4]'
+月度卡片: 'xpath==//div[@class="item isPointer"]'
+
+成本回收定位器开启内容: 'xpath==//div[@class="total-card"]/div/div[2]'
+月度成本回收定位器开启内容: 'xpath==//div[@class="total-card"]/div/div[2]'
+
+总览卡片名: 'xpath==//div[@class="total-card"]/div/div[1]'
+月度卡片名: 'xpath==//div[@class="total-card"]/div/div[2]'
+
+#利润率
+利润率断言: 'xpath==//div[@class="xp-number-input input-type-number has-unit-input number-input w100 el-input el-input--small is-disabled el-input-group el-input-group--append el-input--suffix" and @disabled="disabled"]'
+利润率: 'xpath==//div[@class="xp-number-input input-type-number has-unit-input number-input w100 el-input el-input--small el-input-group el-input-group--append el-input--suffix"]/input'
+
+#月度细分
+月度细分: 'xpath==//div[contains(text(),"月度细分")]'
+月度细分表格行: 'xpath==//div[@class="chart-container"]/div/div/div'
+月度细分表格列: 'xpath==//div[@class="chart-container"]/div/div/div[2]/div[2]/div'
+
+

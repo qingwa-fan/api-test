@@ -1,0 +1,112 @@
+#店铺搜索组件
+店铺: 'xpath==//span[@class="el-tooltip xp-ellipsis-text text store-name break-all"]'
+店铺快速搜索: 'xpath==//div[@class="el-input el-input--small el-input--prefix"]/input'
+选择店铺快速搜索数据: 'xpath==//div[@class="el-popover el-popper xp-select-popover"]/div/ul[2]/li/div'
+
+#左侧导航-AMC数据工作室
+AMC数据工作室: 'xpath==//span[contains(text(),"AMC数据工作室")]'
+AMC模型库: 'xpath==//span[contains(text(),"AMC模型库")]'
+
+我的AMC模型: 'xpath==//div[@class="amc-model-table-title"]'
+AMC模型库_AMC模型库: 'xpath==//div[@class="first-menu"]'
+
+
+#AMC模型库-AMC模型模板
+AMC模型: 'xpath==//div[@class="amc-model-card"]'
+AMC模型二: 'xpath==//div[@class="amc-model-card el-tooltip item"]'
+
+
+#我的AMC模型-我的AMC模型-全部/收藏
+我的AMC模型收藏: 'xpath==//div[@class="switch-r"]/div[2]'
+我的AMC模型全部: 'xpath==//div[@class="switch-r"]/div[1]'
+
+#我的AMC模型-我的AMC模型搜索栏
+模型名称搜索: 'xpath==//input[@placeholder="请输入模型名称" and @class="el-input__inner"]'
+创建人搜索: 'xpath==//input[@placeholder="创建人" and @class="el-input__inner"]'
+创建人搜索下拉悬浮: 'xpath==//li[@class="el-select-dropdown__item hover"]'
+模型模板搜索: 'xpath==//input[@placeholder="模型模版" and @class="el-input__inner"]'
+模型类型搜索: 'xpath==//input[@placeholder="模型类型" and @class="el-input__inner"]'
+#第几个就在find——elements后面加【x】,适用于创建人/模型模板等
+搜索下拉: 'xpath==//div[@x-placement="bottom-start" and @class="el-select-dropdown el-popper"]/div/div/ul/li'
+搜索暂无数据: 'xpath==//div[@class="vxe-table--empty-placeholder"]/div/div/span'
+
+
+#我的AMC模型-我的AMC模型列表.
+我的AMC模型列表值二: 'xpath==//div[@class="vxe-table--body-wrapper fixed-right--wrapper"]/table/tbody/'
+我的AMC模型列表值: 'xpath==//div[@class="vxe-table--body-wrapper body--wrapper"]/table/tbody/'
+我的AMC模型列表值状态1: 'xpath==//*[@id="amcModelTable"]/div/div[3]/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]/div/div/div/div'
+我的AMC模型列表值状态2: 'xpath==//*[@id="amcModelTable"]/div/div[3]/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]/div/div/div'
+我的AMC模型列表值模板名称: 'xpath==//*[@id="amcModelTable"]/div/div[3]/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[2]/div/a'
+我的AMC模型列表值模板类型: 'xpath==//*[@id="amcModelTable"]/div/div[3]/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[3]/div/span'
+
+
+
+
+
+
+
+#下次拉取时间，后面拼接tr[X]/td[5]/div/span。第X行第一个
+我的AMC模型列表下次拉取时间: 'xpath==//div[@class="vxe-table--body-wrapper body--wrapper"]/table/tbody/'
+#截至日期、创建人、更新时间，后面拼接tr[X]/td[Y]/div/span。第X行第一个 ,Y分别为6、7、8
+#操作，后面拼接tr[x]/td[9]/div/div/span[y]。第X行  y:0\1\2对应三个操作
+我的AMC模型列表操作: 'xpath==//div[@class="vxe-table--body-wrapper body--wrapper"]/table/tbody/'
+我的AMC模型列表操作取消_确定: 'xpath==//div[@x-placement="bottom" and @class="el-popover el-popper"]/div/div/button[2]'
+我的AMC模型列表操作取消_取消: 'xpath==//div[@x-placement="bottom" and @class="el-popover el-popper"]/div/div/button[1]'
+
+
+#通用功能
+#数据对比
+数据对比: 'xpath==//span[@class="el-switch__core"]'
+数据对比状态断言: 'xpath==//div[@class="el-switch is-checked"]'
+数据对比状态断言数据断言: 'xpath==//div[@class="vxe-table--body-wrapper body--wrapper"]/table/tbody/tr[1]/td[5]/div/div/div'
+#隐藏/显示图表
+隐藏图表: 'xpath==//i[@class="iconfont icon-chart chartfont selected"]'
+显示图表: 'xpath==//i[@class="iconfont icon-chart chartfont"]'
+
+隐藏图表断言: 'xpath==//div[@class="scatter-part xp-card"]'
+
+#全屏
+全屏: 'xpath==//i[@class="el-tooltip el-icon-full-screen"]'
+非全屏断言: 'xpath==//div[@class="x-vxe-table vxe-grid is--animat is--round is--maximize"]'
+
+#自定义列
+自定义列: 'xpath==//i[@class="el-tooltip el-icon-setting item"]'
+自定义参数指标名: 'xpath==//li[@class="t-option"]/label/span[2]'
+自定义指标勾选: 'xpath==//li[@class="t-option"]/label/span[1]'
+
+自定义参数指标已选去勾选: 'xpath==//label[@class="el-checkbox all-title is-checked"]'
+自定义参数已勾选指标名: 'xpath==//*[@class="el-checkbox all-title is-checked"]/span[2]'
+
+
+确定: 'xpath==//span[contains(text(),"确定")]'
+
+
+#创建模型
+保存为我的模型: 'xpath==//*[@class="el-button save-btn el-button--primary el-button--small"]'
+保存为我的模型_模型名称: 'xpath==//*[@class="el-dialog__body"]/div/input'
+保存为我的模型_模型名称二: 'xpath==//*[@class="model-name-line"]/div/input'
+
+保存为我的模型_确定: 'xpath==//div[@aria-label="保存为我的模型"]/div[3]/span/button[2]'
+保存为我的模型_确定二: 'xpath==//*[@class="op-btns"]/button[2]'
+保存为我的模型_取消: 'xpath==//div[@aria-label="保存为我的模型"]/div[3]/span/button[1]'
+
+定义模型条件: 'xpath==//*[@class="right-btns"]/button[1]'
+定义模型条件模型名称: 'xpath==//*[@class="el-form model-form el-form--label-top el-form--inline"]/div[2]/div/div/input'
+定义模型条件广告账户: 'xpath==//*[@class="el-form model-form el-form--label-top el-form--inline"]/div[4]/div/div/div/input'
+定义模型条件亚马逊数据洞察: 'xpath==//*[@class="el-form model-form el-form--label-top el-form--inline"]/div[5]/div/div/label[2]'
+定义模型条件另存为新模型: 'xpath==//span[contains(text(),"另存为新模型")]'
+定义模型条件另存为新模型_确定: 'xpath==//*[@class="el-button el-button--default el-button--small el-button--primary "]/span'
+定义模型条件另存为新模型_取消: 'xpath==//div[@class="el-message-box__btns"]/button[1]/span'
+
+#时间范围
+时间范围: 'xpath==//*[@class="el-date-editor month-picker el-input el-input--small el-input--prefix el-input--suffix el-date-editor--month"]/input'
+时间范围二: 'xpath==//*[@class="el-date-editor w130 el-input el-input--small el-input--prefix el-input--suffix el-date-editor--month"]/input'
+
+时间范围当前月份: 'xpath==//*[@class="current"]/div/a'
+时间范围当前年: 'xpath==//*[@class="el-date-picker__header-label"]'
+
+导出: 'xpath==//*[@class="el-tooltip el-icon-download xp-export"]'
+
+#指标编辑页
+指标删除: 'xpath==//*[@class="el-icon-delete"]'
+预览: 'xpath==//span[contains(text(),"预览")]'

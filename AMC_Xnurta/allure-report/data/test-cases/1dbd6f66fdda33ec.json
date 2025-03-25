@@ -1,0 +1,155 @@
+{
+  "uid" : "1dbd6f66fdda33ec",
+  "name" : "test_Screen[Overall]",
+  "fullName" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_Excel.TestExcel#test_Screen",
+  "historyId" : "312df78a5ef533f7ad43efc62e31816c",
+  "time" : {
+    "start" : 1742520642087,
+    "stop" : 1742520642087,
+    "duration" : 0
+  },
+  "description" : "搜索词分析模型底部excel",
+  "descriptionHtml" : "<p>搜索词分析模型底部excel</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x00388BA9]\n\t(No symbol) [0x00388EFB]\n\t(No symbol) [0x003D19C2]\n\t(No symbol) [0x003AD894]\n\t(No symbol) [0x003CF138]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]",
+  "statusTrace" : "drivers = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1fb7c7ea17e9434888ce6fa6f06859ae\")>\nrequest = <SubRequest 'login' for <Function test_Screen[Overall]>>\n\n    @allure.story(\"登录系统\")\n    # 每个函数或方法都会调用\n    @pytest.fixture(autouse=True)\n    def login(drivers,request):\n        \"\"\"登录\"\"\"\n        common = Common(drivers)\n        login = LoginObject(drivers)\n>       login.login()\n\nTestCase\\AMCModelGallery\\conftest.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_object\\登录.py:108: in login\n    self.waitload(elementcommon['店铺'])\npage\\webpage.py:432: in waitload\n    WebDriverWait(self.driver, 3).until(\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"1fb7c7ea17e9434888ce6fa6f06859ae\")>\nmethod = <function presence_of_element_located.<locals>._predicate at 0x00000237C45920C0>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Wait until the method returns a value that is not False.\n    \n        Calls the method provided with the driver as an argument until the\n        return value does not evaluate to ``False``.\n    \n        Parameters:\n        ----------\n        method: callable(WebDriver)\n            - A callable object that takes a WebDriver instance as an argument.\n    \n        message: str\n            - Optional message for :exc:`TimeoutException`\n    \n        Return:\n        -------\n        object: T\n            - The result of the last call to `method`\n    \n        Raises:\n        -------\n        TimeoutException\n            - If 'method' does not return a truthy value within the WebDriverWait\n            object's timeout\n    \n        Example:\n        --------\n        >>> from selenium.webdriver.common.by import By\n        >>> from selenium.webdriver.support.ui import WebDriverWait\n        >>> from selenium.webdriver.support import expected_conditions as EC\n    \n        # Wait until an element is visible on the page\n        >>> wait = WebDriverWait(driver, 10)\n        >>> element = wait.until(EC.visibility_of_element_located((By.ID, \"exampleId\")))\n        >>> print(element.text)\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            if time.monotonic() > end_time:\n                break\n            time.sleep(self._poll)\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: \nE       Stacktrace:\nE       \tGetHandleVerifier [0x004DB5A3+24387]\nE       \t(No symbol) [0x00465904]\nE       \t(No symbol) [0x00340753]\nE       \t(No symbol) [0x00388BA9]\nE       \t(No symbol) [0x00388EFB]\nE       \t(No symbol) [0x003D19C2]\nE       \t(No symbol) [0x003AD894]\nE       \t(No symbol) [0x003CF138]\nE       \t(No symbol) [0x003AD646]\nE       \t(No symbol) [0x0037C59F]\nE       \t(No symbol) [0x0037D8E4]\nE       \tGetHandleVerifier [0x007DD883+3179043]\nE       \tGetHandleVerifier [0x007F6CF9+3282585]\nE       \tGetHandleVerifier [0x007F167C+3260444]\nE       \tGetHandleVerifier [0x00574330+650448]\nE       \t(No symbol) [0x0046ED0D]\nE       \t(No symbol) [0x0046BAF8]\nE       \t(No symbol) [0x0046BC99]\nE       \t(No symbol) [0x0045E530]\nE       \tBaseThreadInitThunk [0x76815D49+25]\nE       \tRtlInitializeExceptionChain [0x7776CE3B+107]\nE       \tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]\n\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py:146: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1742520657999,
+      "stop" : 1742520723135,
+      "duration" : 65136
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x00388BA9]\n\t(No symbol) [0x00388EFB]\n\t(No symbol) [0x003D19C2]\n\t(No symbol) [0x003AD894]\n\t(No symbol) [0x003CF138]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]\n\n",
+    "statusTrace" : "  File \"D:\\Python\\Lib\\site-packages\\pluggy\\_callers.py\", line 167, in _multicall\n    teardown.throw(outcome._exception)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\_pytest\\setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\pluggy\\_callers.py\", line 103, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\Python\\Lib\\site-packages\\_pytest\\fixtures.py\", line 1140, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\Python\\Lib\\site-packages\\_pytest\\fixtures.py\", line 898, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n  File \"E:\\AMC_Xnurta\\TestCase\\AMCModelGallery\\conftest.py\", line 30, in login\n    login.login()\n    ~~~~~~~~~~~^^\n  File \"D:\\Python\\Lib\\site-packages\\allure_commons\\_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"E:\\AMC_Xnurta\\page_object\\登录.py\", line 108, in login\n    self.waitload(elementcommon['店铺'])\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\AMC_Xnurta\\page\\webpage.py\", line 432, in waitload\n    WebDriverWait(self.driver, 3).until(\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        EC.presence_of_element_located((By.XPATH, element[1]))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 146, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1742520658033,
+        "stop" : 1742520722500,
+        "duration" : 64467
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x00388BA9]\n\t(No symbol) [0x00388EFB]\n\t(No symbol) [0x003D19C2]\n\t(No symbol) [0x003AD894]\n\t(No symbol) [0x003CF138]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]\n\n",
+      "statusTrace" : "  File \"D:\\Python\\Lib\\site-packages\\allure_commons\\_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"E:\\AMC_Xnurta\\page_object\\登录.py\", line 108, in login\n    self.waitload(elementcommon['店铺'])\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\AMC_Xnurta\\page\\webpage.py\", line 432, in waitload\n    WebDriverWait(self.driver, 3).until(\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        EC.presence_of_element_located((By.XPATH, element[1]))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 146, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://wtest.xnurta.com/login'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1742520642108,
+      "stop" : 1742520657998,
+      "duration" : 15890
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "搜索词分析模型底部excel",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x00388BA9]\n\t(No symbol) [0x00388EFB]\n\t(No symbol) [0x003D19C2]\n\t(No symbol) [0x003AD894]\n\t(No symbol) [0x003CF138]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]",
+    "statusTrace" : "drivers = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1fb7c7ea17e9434888ce6fa6f06859ae\")>\nrequest = <SubRequest 'login' for <Function test_Screen[Overall]>>\n\n    @allure.story(\"登录系统\")\n    # 每个函数或方法都会调用\n    @pytest.fixture(autouse=True)\n    def login(drivers,request):\n        \"\"\"登录\"\"\"\n        common = Common(drivers)\n        login = LoginObject(drivers)\n>       login.login()\n\nTestCase\\AMCModelGallery\\conftest.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_object\\登录.py:108: in login\n    self.waitload(elementcommon['店铺'])\npage\\webpage.py:432: in waitload\n    WebDriverWait(self.driver, 3).until(\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"1fb7c7ea17e9434888ce6fa6f06859ae\")>\nmethod = <function presence_of_element_located.<locals>._predicate at 0x00000237C45920C0>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Wait until the method returns a value that is not False.\n    \n        Calls the method provided with the driver as an argument until the\n        return value does not evaluate to ``False``.\n    \n        Parameters:\n        ----------\n        method: callable(WebDriver)\n            - A callable object that takes a WebDriver instance as an argument.\n    \n        message: str\n            - Optional message for :exc:`TimeoutException`\n    \n        Return:\n        -------\n        object: T\n            - The result of the last call to `method`\n    \n        Raises:\n        -------\n        TimeoutException\n            - If 'method' does not return a truthy value within the WebDriverWait\n            object's timeout\n    \n        Example:\n        --------\n        >>> from selenium.webdriver.common.by import By\n        >>> from selenium.webdriver.support.ui import WebDriverWait\n        >>> from selenium.webdriver.support import expected_conditions as EC\n    \n        # Wait until an element is visible on the page\n        >>> wait = WebDriverWait(driver, 10)\n        >>> element = wait.until(EC.visibility_of_element_located((By.ID, \"exampleId\")))\n        >>> print(element.text)\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            if time.monotonic() > end_time:\n                break\n            time.sleep(self._poll)\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: \nE       Stacktrace:\nE       \tGetHandleVerifier [0x004DB5A3+24387]\nE       \t(No symbol) [0x00465904]\nE       \t(No symbol) [0x00340753]\nE       \t(No symbol) [0x00388BA9]\nE       \t(No symbol) [0x00388EFB]\nE       \t(No symbol) [0x003D19C2]\nE       \t(No symbol) [0x003AD894]\nE       \t(No symbol) [0x003CF138]\nE       \t(No symbol) [0x003AD646]\nE       \t(No symbol) [0x0037C59F]\nE       \t(No symbol) [0x0037D8E4]\nE       \tGetHandleVerifier [0x007DD883+3179043]\nE       \tGetHandleVerifier [0x007F6CF9+3282585]\nE       \tGetHandleVerifier [0x007F167C+3260444]\nE       \tGetHandleVerifier [0x00574330+650448]\nE       \t(No symbol) [0x0046ED0D]\nE       \t(No symbol) [0x0046BAF8]\nE       \t(No symbol) [0x0046BC99]\nE       \t(No symbol) [0x0045E530]\nE       \tBaseThreadInitThunk [0x76815D49+25]\nE       \tRtlInitializeExceptionChain [0x7776CE3B+107]\nE       \tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]\n\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py:146: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2545b30142431a1b",
+      "name" : "测试失败截图...20250321093224",
+      "source" : "2545b30142431a1b.png",
+      "type" : "image/png",
+      "size" : 511010
+    }, {
+      "uid" : "611c472e20d84903",
+      "name" : "log",
+      "source" : "611c472e20d84903.txt",
+      "type" : "text/plain",
+      "size" : 18213
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1742520745434,
+      "stop" : 1742520752665,
+      "duration" : 7231
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "搜索词分析模型-全屏/取消全屏"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis"
+  }, {
+    "name" : "suite",
+    "value" : "test_Excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T9E779QS"
+  }, {
+    "name" : "thread",
+    "value" : "9972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_Excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "entrance",
+    "value" : "'Overall'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1dbd6f66fdda33ec.json",
+  "parameterValues" : [ "'Overall'" ]
+}

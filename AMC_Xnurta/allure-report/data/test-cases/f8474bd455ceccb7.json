@@ -1,0 +1,155 @@
+{
+  "uid" : "f8474bd455ceccb7",
+  "name" : "test_TestSearchItemTypeProduct[Exact]",
+  "fullName" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_TopSearch.TestTopSearch#test_TestSearchItemTypeProduct",
+  "historyId" : "709d982d1ed28b2a8683a2b094ed1807",
+  "time" : {
+    "start" : 1742521060927,
+    "stop" : 1742521060927,
+    "duration" : 0
+  },
+  "description" : "搜索词分析模型-顶部筛选-搜索词类型",
+  "descriptionHtml" : "<p>搜索词分析模型-顶部筛选-搜索词类型</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: chrome=134.0.6998.89)\nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x0033127B]\n\t(No symbol) [0x00330FB1]\n\t(No symbol) [0x0032EE80]\n\t(No symbol) [0x0032FA3D]\n\t(No symbol) [0x0033C049]\n\t(No symbol) [0x0034D9B5]\n\t(No symbol) [0x00353266]\n\t(No symbol) [0x0033004D]\n\t(No symbol) [0x0034D75E]\n\t(No symbol) [0x003CF047]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]",
+  "statusTrace" : "drivers = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b03eadc90a5f9a9d51f107dbf6b3881a\")>\nrequest = <SubRequest 'login' for <Function test_TestSearchItemTypeProduct[Exact]>>\n\n    @allure.story(\"登录系统\")\n    # 每个函数或方法都会调用\n    @pytest.fixture(autouse=True)\n    def login(drivers,request):\n        \"\"\"登录\"\"\"\n        common = Common(drivers)\n        login = LoginObject(drivers)\n>       login.login()\n\nTestCase\\AMCModelGallery\\conftest.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_object\\登录.py:101: in login\n    self.input_text(elementlogin['账号'], user[\"username\"])\npage\\webpage.py:135: in input_text\n    ele = self.find_element(locator)\npage\\webpage.py:94: in find_element\n    return WebPage.element_locator(lambda *args: self.wait.until(\npage\\webpage.py:85: in element_locator\n    return func(cm.LOCATE_MODE[name], value)\npage\\webpage.py:94: in <lambda>\n    return WebPage.element_locator(lambda *args: self.wait.until(\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py:137: in until\n    value = method(self._driver)\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:110: in _predicate\n    return driver.find_element(*locator)\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:898: in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:429: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000001E7A5EA4180>\nresponse = {'status': 500, 'value': '{\"value\":{\"error\":\"timeout\",\"message\":\"timeout: Timed out receiving message from renderer: 1...9+25]\\\\n\\\\tRtlInitializeExceptionChain [0x7776CE3B+107]\\\\n\\\\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]\\\\n\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        e = ErrorCode()\n        error_codes = [item for item in dir(e) if not item.startswith(\"__\")]\n        for error_code in error_codes:\n            error_info = getattr(ErrorCode, error_code)\n            if isinstance(error_info, list) and status in error_info:\n                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)\n                break\n        else:\n            exception_class = WebDriverException\n    \n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 10.000\nE         (Session info: chrome=134.0.6998.89)\nE       Stacktrace:\nE       \tGetHandleVerifier [0x004DB5A3+24387]\nE       \t(No symbol) [0x00465904]\nE       \t(No symbol) [0x00340753]\nE       \t(No symbol) [0x0033127B]\nE       \t(No symbol) [0x00330FB1]\nE       \t(No symbol) [0x0032EE80]\nE       \t(No symbol) [0x0032FA3D]\nE       \t(No symbol) [0x0033C049]\nE       \t(No symbol) [0x0034D9B5]\nE       \t(No symbol) [0x00353266]\nE       \t(No symbol) [0x0033004D]\nE       \t(No symbol) [0x0034D75E]\nE       \t(No symbol) [0x003CF047]\nE       \t(No symbol) [0x003AD646]\nE       \t(No symbol) [0x0037C59F]\nE       \t(No symbol) [0x0037D8E4]\nE       \tGetHandleVerifier [0x007DD883+3179043]\nE       \tGetHandleVerifier [0x007F6CF9+3282585]\nE       \tGetHandleVerifier [0x007F167C+3260444]\nE       \tGetHandleVerifier [0x00574330+650448]\nE       \t(No symbol) [0x0046ED0D]\nE       \t(No symbol) [0x0046BAF8]\nE       \t(No symbol) [0x0046BC99]\nE       \t(No symbol) [0x0045E530]\nE       \tBaseThreadInitThunk [0x76815D49+25]\nE       \tRtlInitializeExceptionChain [0x7776CE3B+107]\nE       \tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]\n\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:232: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1742521065356,
+      "stop" : 1742521078892,
+      "duration" : 13536
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: chrome=134.0.6998.89)\nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x0033127B]\n\t(No symbol) [0x00330FB1]\n\t(No symbol) [0x0032EE80]\n\t(No symbol) [0x0032FA3D]\n\t(No symbol) [0x0033C049]\n\t(No symbol) [0x0034D9B5]\n\t(No symbol) [0x00353266]\n\t(No symbol) [0x0033004D]\n\t(No symbol) [0x0034D75E]\n\t(No symbol) [0x003CF047]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]\n\n",
+    "statusTrace" : "  File \"D:\\Python\\Lib\\site-packages\\pluggy\\_callers.py\", line 167, in _multicall\n    teardown.throw(outcome._exception)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\_pytest\\setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\pluggy\\_callers.py\", line 103, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\Python\\Lib\\site-packages\\_pytest\\fixtures.py\", line 1140, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\Python\\Lib\\site-packages\\_pytest\\fixtures.py\", line 898, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n  File \"E:\\AMC_Xnurta\\TestCase\\AMCModelGallery\\conftest.py\", line 30, in login\n    login.login()\n    ~~~~~~~~~~~^^\n  File \"D:\\Python\\Lib\\site-packages\\allure_commons\\_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"E:\\AMC_Xnurta\\page_object\\登录.py\", line 101, in login\n    self.input_text(elementlogin['账号'], user[\"username\"])\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\AMC_Xnurta\\page\\webpage.py\", line 135, in input_text\n    ele = self.find_element(locator)\n  File \"E:\\AMC_Xnurta\\page\\webpage.py\", line 94, in find_element\n    return WebPage.element_locator(lambda *args: self.wait.until(\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        EC.presence_of_element_located(args)), locator)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\AMC_Xnurta\\page\\webpage.py\", line 85, in element_locator\n    return func(cm.LOCATE_MODE[name], value)\n  File \"E:\\AMC_Xnurta\\page\\webpage.py\", line 94, in <lambda>\n    return WebPage.element_locator(lambda *args: self.wait.until(\n                                                 ~~~~~~~~~~~~~~~^\n        EC.presence_of_element_located(args)), locator)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 137, in until\n    value = method(self._driver)\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py\", line 110, in _predicate\n    return driver.find_element(*locator)\n           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 898, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 429, in execute\n    self.error_handler.check_response(response)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 232, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1742521065366,
+        "stop" : 1742521078867,
+        "duration" : 13501
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: chrome=134.0.6998.89)\nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x0033127B]\n\t(No symbol) [0x00330FB1]\n\t(No symbol) [0x0032EE80]\n\t(No symbol) [0x0032FA3D]\n\t(No symbol) [0x0033C049]\n\t(No symbol) [0x0034D9B5]\n\t(No symbol) [0x00353266]\n\t(No symbol) [0x0033004D]\n\t(No symbol) [0x0034D75E]\n\t(No symbol) [0x003CF047]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]\n\n",
+      "statusTrace" : "  File \"D:\\Python\\Lib\\site-packages\\allure_commons\\_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"E:\\AMC_Xnurta\\page_object\\登录.py\", line 101, in login\n    self.input_text(elementlogin['账号'], user[\"username\"])\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\AMC_Xnurta\\page\\webpage.py\", line 135, in input_text\n    ele = self.find_element(locator)\n  File \"E:\\AMC_Xnurta\\page\\webpage.py\", line 94, in find_element\n    return WebPage.element_locator(lambda *args: self.wait.until(\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        EC.presence_of_element_located(args)), locator)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\AMC_Xnurta\\page\\webpage.py\", line 85, in element_locator\n    return func(cm.LOCATE_MODE[name], value)\n  File \"E:\\AMC_Xnurta\\page\\webpage.py\", line 94, in <lambda>\n    return WebPage.element_locator(lambda *args: self.wait.until(\n                                                 ~~~~~~~~~~~~~~~^\n        EC.presence_of_element_located(args)), locator)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 137, in until\n    value = method(self._driver)\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py\", line 110, in _predicate\n    return driver.find_element(*locator)\n           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 898, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 429, in execute\n    self.error_handler.check_response(response)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 232, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://wtest.xnurta.com/login'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1742521060931,
+      "stop" : 1742521065356,
+      "duration" : 4425
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "搜索词分析模型-顶部筛选-搜索词类型",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: chrome=134.0.6998.89)\nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x0033127B]\n\t(No symbol) [0x00330FB1]\n\t(No symbol) [0x0032EE80]\n\t(No symbol) [0x0032FA3D]\n\t(No symbol) [0x0033C049]\n\t(No symbol) [0x0034D9B5]\n\t(No symbol) [0x00353266]\n\t(No symbol) [0x0033004D]\n\t(No symbol) [0x0034D75E]\n\t(No symbol) [0x003CF047]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]",
+    "statusTrace" : "drivers = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b03eadc90a5f9a9d51f107dbf6b3881a\")>\nrequest = <SubRequest 'login' for <Function test_TestSearchItemTypeProduct[Exact]>>\n\n    @allure.story(\"登录系统\")\n    # 每个函数或方法都会调用\n    @pytest.fixture(autouse=True)\n    def login(drivers,request):\n        \"\"\"登录\"\"\"\n        common = Common(drivers)\n        login = LoginObject(drivers)\n>       login.login()\n\nTestCase\\AMCModelGallery\\conftest.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_object\\登录.py:101: in login\n    self.input_text(elementlogin['账号'], user[\"username\"])\npage\\webpage.py:135: in input_text\n    ele = self.find_element(locator)\npage\\webpage.py:94: in find_element\n    return WebPage.element_locator(lambda *args: self.wait.until(\npage\\webpage.py:85: in element_locator\n    return func(cm.LOCATE_MODE[name], value)\npage\\webpage.py:94: in <lambda>\n    return WebPage.element_locator(lambda *args: self.wait.until(\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py:137: in until\n    value = method(self._driver)\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:110: in _predicate\n    return driver.find_element(*locator)\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:898: in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:429: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000001E7A5EA4180>\nresponse = {'status': 500, 'value': '{\"value\":{\"error\":\"timeout\",\"message\":\"timeout: Timed out receiving message from renderer: 1...9+25]\\\\n\\\\tRtlInitializeExceptionChain [0x7776CE3B+107]\\\\n\\\\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]\\\\n\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        e = ErrorCode()\n        error_codes = [item for item in dir(e) if not item.startswith(\"__\")]\n        for error_code in error_codes:\n            error_info = getattr(ErrorCode, error_code)\n            if isinstance(error_info, list) and status in error_info:\n                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)\n                break\n        else:\n            exception_class = WebDriverException\n    \n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 10.000\nE         (Session info: chrome=134.0.6998.89)\nE       Stacktrace:\nE       \tGetHandleVerifier [0x004DB5A3+24387]\nE       \t(No symbol) [0x00465904]\nE       \t(No symbol) [0x00340753]\nE       \t(No symbol) [0x0033127B]\nE       \t(No symbol) [0x00330FB1]\nE       \t(No symbol) [0x0032EE80]\nE       \t(No symbol) [0x0032FA3D]\nE       \t(No symbol) [0x0033C049]\nE       \t(No symbol) [0x0034D9B5]\nE       \t(No symbol) [0x00353266]\nE       \t(No symbol) [0x0033004D]\nE       \t(No symbol) [0x0034D75E]\nE       \t(No symbol) [0x003CF047]\nE       \t(No symbol) [0x003AD646]\nE       \t(No symbol) [0x0037C59F]\nE       \t(No symbol) [0x0037D8E4]\nE       \tGetHandleVerifier [0x007DD883+3179043]\nE       \tGetHandleVerifier [0x007F6CF9+3282585]\nE       \tGetHandleVerifier [0x007F167C+3260444]\nE       \tGetHandleVerifier [0x00574330+650448]\nE       \t(No symbol) [0x0046ED0D]\nE       \t(No symbol) [0x0046BAF8]\nE       \t(No symbol) [0x0046BC99]\nE       \t(No symbol) [0x0045E530]\nE       \tBaseThreadInitThunk [0x76815D49+25]\nE       \tRtlInitializeExceptionChain [0x7776CE3B+107]\nE       \tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]\n\nD:\\Python\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:232: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e4c1bdf91854e75a",
+      "name" : "测试失败截图...20250321093814",
+      "source" : "e4c1bdf91854e75a.png",
+      "type" : "image/png",
+      "size" : 22458
+    }, {
+      "uid" : "49b743efc5be1228",
+      "name" : "log",
+      "source" : "49b743efc5be1228.txt",
+      "type" : "text/plain",
+      "size" : 10393
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1742521095799,
+      "stop" : 1742521113930,
+      "duration" : 18131
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "顶搜索词分析模型-部筛选-搜索词类型-定向"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis"
+  }, {
+    "name" : "suite",
+    "value" : "test_TopSearch"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTopSearch"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T9E779QS"
+  }, {
+    "name" : "thread",
+    "value" : "14644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.AMCModelGallery.SearchTermAnalysis.test_TopSearch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "search_type",
+    "value" : "'Exact'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8474bd455ceccb7.json",
+  "parameterValues" : [ "'Exact'" ]
+}

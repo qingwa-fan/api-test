@@ -1,0 +1,53 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: chrome=134.0.6998.89)\nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x0033127B]\n\t(No symbol) [0x00330FB1]\n\t(No symbol) [0x0032EE80]\n\t(No symbol) [0x0032FA3D]\n\t(No symbol) [0x0033C049]\n\t(No symbol) [0x0034D9B5]\n\t(No symbol) [0x00353266]\n\t(No symbol) [0x0033004D]\n\t(No symbol) [0x0034D75E]\n\t(No symbol) [0x003CF047]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]",
+      "children" : [ {
+        "name" : "test_SaveAsMyModel",
+        "uid" : "abed8933ed9c31bf",
+        "parentUid" : "d5db0cbf98db68dee04cba08cf262981",
+        "status" : "broken",
+        "time" : {
+          "start" : 1742520755085,
+          "stop" : 1742520755085,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_TestSearchTarget[auto_substitutes]",
+        "uid" : "f175de6a3690908c",
+        "parentUid" : "d5db0cbf98db68dee04cba08cf262981",
+        "status" : "broken",
+        "time" : {
+          "start" : 1742521186288,
+          "stop" : 1742521186288,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ "'auto_substitutes'" ]
+      } ],
+      "uid" : "d5db0cbf98db68dee04cba08cf262981"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <i data-v-6f53ffbd=\"\" data-v-4b773e76=\"\" class=\"el-tooltip el-icon-download xp-export\" aria-describedby=\"el-tooltip-5957\" tabindex=\"null\"></i> is not clickable at point (1998, 868). Other element would receive the click: <div class=\"el-loading-mask el-loading-fade-leave-active el-loading-fade-leave-to\" style=\"\">...</div>\n  (Session info: chrome=134.0.6998.89)\nStacktrace:\n\tGetHandleVerifier [0x004DB5A3+24387]\n\t(No symbol) [0x00465904]\n\t(No symbol) [0x00340753]\n\t(No symbol) [0x0038EE50]\n\t(No symbol) [0x0038D1F4]\n\t(No symbol) [0x0038AD87]\n\t(No symbol) [0x0038A044]\n\t(No symbol) [0x0037E6D5]\n\t(No symbol) [0x003AD84C]\n\t(No symbol) [0x0037E164]\n\t(No symbol) [0x003ADAC4]\n\t(No symbol) [0x003CF138]\n\t(No symbol) [0x003AD646]\n\t(No symbol) [0x0037C59F]\n\t(No symbol) [0x0037D8E4]\n\tGetHandleVerifier [0x007DD883+3179043]\n\tGetHandleVerifier [0x007F6CF9+3282585]\n\tGetHandleVerifier [0x007F167C+3260444]\n\tGetHandleVerifier [0x00574330+650448]\n\t(No symbol) [0x0046ED0D]\n\t(No symbol) [0x0046BAF8]\n\t(No symbol) [0x0046BC99]\n\t(No symbol) [0x0045E530]\n\tBaseThreadInitThunk [0x76815D49+25]\n\tRtlInitializeExceptionChain [0x7776CE3B+107]\n\tRtlGetAppContainerNamedObjectPath [0x7776CDC1+561]",
+      "children" : [ {
+        "name" : "test_Export[SearchTermAnalysisOverall]",
+        "uid" : "6e6edcf8fcd07ab1",
+        "parentUid" : "cd7a4e3427ff5ecdcb1f18cbce2ea078",
+        "status" : "broken",
+        "time" : {
+          "start" : 1742520823526,
+          "stop" : 1742520835701,
+          "duration" : 12175
+        },
+        "flaky" : true,
+        "parameters" : [ "'SearchTermAnalysisOverall'" ]
+      } ],
+      "uid" : "cd7a4e3427ff5ecdcb1f18cbce2ea078"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,31 @@
+#AMC模型库-广告触达分析
+#顶部筛选-广告账号
+顶部筛选-广告账户: 'xpath==//input[@placeholder="DSP 广告主"]'
+广告账户_DPS广告主: 'xpath==//span[contains(text(),"DSP 广告主")]'
+广告账户_DPS广告主全选: 'xpath==//div[@class="el-popper el-cascader__dropdown amc-cascader-popper"][1]/div[1]/div[1]/div[1]/ul[1]/li[1]/label/span'
+广告账户_二级一: 'xpath==//div[@class="el-cascader-menu__wrap el-scrollbar__wrap"]/ul/li[1]/label[1]/span'
+广告账户_二级二: 'xpath==//div[@class="el-cascader-menu__wrap el-scrollbar__wrap"]/ul/li[2]/label[1]/span'
+广告账户_sa: 'xpath==//span[contains(text(),"SA Entity")]'
+广告账户_sa广告主全选: 'xpath==//div[@class="el-popper el-cascader__dropdown amc-cascader-popper"][1]/div[1]/div[1]/div[1]/ul[1]/li[2]/label/span'
+
+#卡片
+广告触发分析卡片值: 'xpath==//div[@class="x-ellipsis-text"]'
+广告触发分析卡片编辑: 'xpath==//div[@class="model-toolbar"]/button'
+广告触发分析卡片编辑_已选指标: 'xpath==//li[@class="option-li disabled"]/div/span'
+
+#顶部筛选-广告
+顶部筛选-广告: 'xpath==//span[@class="el-tooltip xp-ellipsis-text text result-text"]'
+顶部筛选-广告_广告类型DSP: 'xpath==//li[contains(text()," 亚马逊DSP（21） ")]'
+顶部筛选-广告_广告类型SP: 'xpath==//li[contains(text()," 商品推广（2096） ")]'
+顶部筛选-广告_广告类型SB: 'xpath==//li[contains(text()," 品牌推广（108） ")]'
+顶部筛选-广告_广告类型SD: 'xpath==//li[contains(text()," 展示型推广（200） ")]'
+顶部筛选-广告_广告活动: 'xpath==//li[contains(text()," 广告活动 ")]'
+顶部筛选-广告_广告活动_搜索: 'xpath==//input[@placeholder="请输入广告活动名称或者广告活动ID"]'
+顶部筛选-广告_广告活动_搜索选择: 'xpath==//span[@class="el-tooltip xp-ellipsis-text text campaign-id"]'
+顶部筛选-广告_广告活动_店铺选择: 'xpath==//div[@class="selectors"]/div[2]/div/input'
+顶部筛选-广告_广告活动_店铺选择_DSP: 'xpath==//div[@class="el-popper el-cascader__dropdown amc-cascader-popper"][2]/div[1]/div/div[1]/ul/li[1]/label/span'
+顶部筛选-广告_广告活动_店铺选择_SA: 'xpath==//div[@class="el-popper el-cascader__dropdown amc-cascader-popper"][2]/div[1]/div/div[1]/ul/li[2]/label/span'
+顶部筛选-广告_广告活动_店铺选择_DSP下级: 'xpath==//div[@class="el-popper el-cascader__dropdown amc-cascader-popper"][2]/div[1]/div/div[1]/ul/li[1]/span'
+顶部筛选-广告_广告活动_店铺选择_DSP下级_DE: 'xpath==//div[@class="el-popper el-cascader__dropdown amc-cascader-popper"][2]/div/div[2]/div/ul/li[1]/label/span'
+顶部筛选-广告_广告活动_店铺选择_店铺: 'xpath==//span[@class="el-tooltip xp-ellipsis-text text advertiser-name"]'
+

@@ -1,0 +1,114 @@
+{
+  "total" : 28,
+  "items" : [ {
+    "uid" : "fc14523c66b1536bcca4f9740c0743e4",
+    "name" : "搜索词分析模型-总览-快捷搜索-定向匹配类型/定向Targeting",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "1be0d18e676aa9fbf3657d211c5931d0",
+    "name" : "导出",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "8c05795da21757230f49d187903951f3",
+    "name" : "搜索词分析模型-保存为我的模型",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "0d5072516530e994d5c66890c8a5c80f",
+    "name" : "搜索词分析模型-总览-快捷搜索-广告位切换不同位置",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "e138f4fdcaacf6ff7720ba3316794da1",
+    "name" : "广告触达模型-顶部筛选-广告账户",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "ac3dca8bc3bd08f65c5c593fe0d6c9d9",
+    "name" : "顾客终身价值分析模型-总览-利润率",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "995bc6f91d577d98a85e75882ca73efe",
+    "name" : "顾客终身价值分析模型-月度分析-利润率",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "3114c8507de52b6bf5e93952b867f579",
+    "name" : "顾客终身价值分析模型-月度分析-数据累计",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "1201e0d3f28b1483bc910081365bf028",
+    "name" : "顾客终身价值分析模型-总览-导出",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "5bc9882a8b5958b0466d622dc7c5ba24",
+    "name" : "搜索词分析模型-隐藏/显示图表",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}
